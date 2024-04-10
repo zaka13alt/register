@@ -6,11 +6,7 @@
     },
     "record": {
         "A": [
-            "84.46.245.191"
-        ],
-        "MX": [
-            "mail.is-a.dev"
-        ],
-       "TXT": "v=spf1 include:mail.is-a.dev ~all"
+          "144.91.115.195"
+        ]
     }
 }
