@@ -1,10 +1,9 @@
 {
-    "description": "Ralph Wang's blog",
     "owner": {
-        "username": "ralph",
-        "email": "asnowwolf@gmail.com"
+        "username": "rpineda26",
+        "email": "rp.pineda26@gmail.com"
     },
     "record": {
-        "CNAME": "blog.ralph.wang"
+        "CNAME": "rpineda26.github.io"
     }
 }
