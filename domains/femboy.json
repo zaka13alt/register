@@ -1,11 +1,9 @@
 {
     "owner": {
-        "username": "antithense",
-        "email": "nuffimail33@gmail.com"
+        "username": "d4rkd3n1337",
+        "email": "darkdenrevolt@gmail.com"
     },
     "record": {
-        "A": ["217.174.245.249", "51.161.54.161"],
-        "MX": ["hosts.is-a.dev"],
-        "TXT": "v=spf1 a mx ip4:217.174.245.249 ~all"
+        "A": ["45.85.117.139"]
     }
 }
