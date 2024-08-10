@@ -1,13 +1,9 @@
 {
   "owner": {
-    "username": "ralph",
-    "email": "asnowwolf@gmail.com",
-    "irc": "",
-    "discord": "",
-    "note": "A ThoughtWorker & GDE"
+    "username": "rpineda26",
+    "email": "rp.pineda26@gmail.com"
   },
-  "description": "Ralph Wang's blog",
   "record": {
-    "CNAME": "blog.ralph.wang"
+    "CNAME": "rpineda26.github.io"
   }
 }
