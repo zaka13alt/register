@@ -6,6 +6,8 @@
         "email": "aswinmahesh.com+dns@gmail.com"
     },
     "record": {
-        "CNAME": "aswinmahesh.netlify.app"
+      "A": [
+            "75.2.60.5"
+        ]
     }
 }
