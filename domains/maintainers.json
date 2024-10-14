@@ -1,13 +1,10 @@
 {
     "owner": {
-        "username": "@is-a-dev/maintainers",
-        "email": "phenax5@gmail.com"
+        "username": "is-a-dev",
+        "email": ""
     },
     "record": {
-        "MX": [
-            "mx1.forwardemail.net",
-            "mx2.forwardemail.net"
-        ],
-        "TXT": "forward-email=isdevmail.beadman-network.com"
+        "MX": ["mail.hrsn.net"],
+        "TXT": "v=spf1 include:_spf.hrsn.net ~all"
     }
 }
