@@ -5,6 +5,6 @@
     "email": "orangc@proton.me"
   },
   "record": {
-    "CNAME": "orxngc.github.io"
+    "NS": ["nucum.ns.cloudflare.com", "tate.ns.cloudflare.com"]
   }
 }
