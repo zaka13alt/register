@@ -1,11 +1,10 @@
 {
-    "description": "Register-bot",
-    "repo": "https://github.com/andrewstech/is-a-dev-bot",
-    "owner": {
-        "username": "is-a-dev",
-        "email": "phenax5@gmail.com"
-    },
-    "record": {
-        "CNAME": "dns.beadman-network.com"
-    }
+  "owner": {
+    "username": "is-a-dev",
+    "email": "admin@is-a.dev"
+  },
+  "record": {
+    "CNAME": "p2pb.dev"
+  },
+  "proxied": true
 }
