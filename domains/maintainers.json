@@ -1,11 +1,8 @@
 {
   "owner": {
     "username": "is-a-dev",
-    "email": "phenax5@gmail.com"
+    "email": "admin@is-a.dev"
   },
-  "record": {
-    "URL": "https://team.is-a.dev",
-    "MX": ["mail.is-a.dev"],
-    "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
-  }
+  "record": {},
+  "reserved": true
 }
