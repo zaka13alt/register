@@ -1,11 +1,12 @@
 {
-    "description": "Makr Davydov is a Developer!",
-    "repo": "https://github.com/markrity",
-    "owner": {
-        "username": "markrity",
-        "email": "markrity@gmail.com"
-    },
-    "record": {
-        "URL": "https://www.linkedin.com/in/davydovmark"
-    }
+  "description": "Portfolio website",
+  "repo": "https://github.com/t1devzeus/register",
+  "owner": {
+    "username": "t1devzeus",
+    "email": "dev.caspian.hayashi@gmail.com",
+    "discord": "944959943310737408"
+  },
+  "record": {
+    "A": ["75.2.60.5"]
+  }
 }
