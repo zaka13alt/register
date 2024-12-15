@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "orxngc",
-    "discord": "orangc",
-    "email": "orangc@proton.me"
+    "username": "orangci",
+    "discord": "orangc"
   },
   "record": {
-    "CNAME": "orxngc.github.io"
+    "NS": ["nucum.ns.cloudflare.com", "tate.ns.cloudflare.com"]
   }
 }
