@@ -6,7 +6,6 @@
     "discord": "nickwoah"
   },
   "record": {
-    "CNAME": "nicholasalfonso-com-svelte.pages.dev",
-    "TXT": "dh=b9e9ee170ceabd5d201a50225be187e055b9bbb6"
+    "CNAME": "nicholasalfonso-com-svelte.pages.dev"
   }
 }
