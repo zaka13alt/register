@@ -1,9 +1,10 @@
 {
   "owner": {
     "username": "is-a-dev",
-    "email": ""
+    "email": "admin@is-a.dev"
   },
   "record": {
-    "A": ["217.174.245.249"]
-  }
+    "CNAME": "wdh.app"
+  },
+  "proxied": true
 }
