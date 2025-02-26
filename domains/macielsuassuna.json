@@ -5,9 +5,6 @@
     "email": "macielsuassuna14@gmail.com"
   },
   "record": {
-    "TXT": [
-      "_vercel",
-      "vc-domain-verify=macielsuassuna.is-a.dev,8c379ebe1b06a321ff44"
-    ]
+    "CNAME": "macielsuassuna-portifolio.vercel.app"
   }
 }
