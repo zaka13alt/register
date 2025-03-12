@@ -1,5 +1,5 @@
 {
-  "description": "For personal development usage",
+  "description": "Root subdomain, just a CNAME to Vercel",
   "repo": "https://github.com/KruASe76",
   "owner": {
     "username": "KruASe76",
@@ -7,15 +7,7 @@
     "telegram": "https://t.me/KruASe"
   },
   "record": {
-    "A": [
-      "89.19.177.86"
-    ]
-  },
-  "redirect_config": {
-    "custom_paths": {
-      "/blog": "https://kruase.vercel.app"
-    },
-    "redirect_paths": true
+    "CNAME": "kruase.vercel.app"
   },
   "proxied": true
 }
