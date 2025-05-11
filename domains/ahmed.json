@@ -1,11 +1,9 @@
 {
-    "description": "Ahmed's personal site",
-    "repo": "https://github.com/Dropheart",
-    "owner": {
-        "username": "dropheart",
-        "email": "ahmed@techfromtheheart.com"
-    },
-    "record": {
-        "URL": "https://techfromtheheart.com"
-    }
+  "owner": {
+    "username": "AhmedOsamaMath",
+    "email": "ahmedosamamath@gmail.com"
+  },
+  "records": {
+    "A": ["76.76.21.21"]
+  }
 }
