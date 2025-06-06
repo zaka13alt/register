@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "username": "casperong",
+    "email": "casper10528@gmail.com"
+  },
+  "records": {
+    "CNAME": "casperong.github.io"
+  },
+  "services": {
+   "discord": "dh=98e86eb3f5fd767a8ffbb159cd9be137bb10c5e6"
+  },
+  "proxied": true
+}
