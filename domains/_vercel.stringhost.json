@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "StrinGhost",
+        "email": "stringhost.local@gmail.com"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=stringhost.is-a.dev,13ec6a0c66832fbd5d68",
+        "A": ["216.198.79.1"]
+    }
+}
