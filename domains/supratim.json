@@ -1,11 +1,10 @@
 {
-    "owner": {
-        "username": "SupratimRK",
-        "email": "supratimrk@gmail.com"
-    },
-    "records": {
-        "A": [
-            "75.2.60.5"
-        ]
-    }
+  "owner": {
+    "username": "SupratimRK",
+    "email": "supratimrk@gmail.com"
+  },
+  "records": {
+    "A": ["216.198.79.1"],
+    "CNAME": "547783a02bc3aa54.vercel-dns-017.com"
+  }
 }
