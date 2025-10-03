@@ -1,9 +1,12 @@
 {
-    "owner": {
-        "username": "sercwn",
-        "email": "artidoxd@gmail.com"
-    },
-    "record": {
-        "URL": "https://playmiku.blogspot.com/2023/08/miku_98.html"
-    }
+  "owner": {
+    "username": "dragsbruh",
+    "email": "dragsbruh@protonmail.com",
+    "discord": "781445370177126401",
+    "bluesky": "furina.is-a.dev"
+  },
+  "description": "a redirect to my homelab",
+  "records": {
+    "URL": "https://vinster.xyz/"
+  }
 }
