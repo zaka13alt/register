@@ -1,9 +1,10 @@
 {
   "owner": {
-    "username": "wdhdev",
-    "email": "william@is-a.dev"
+    "username": "virtualwinter",
+    "discord": "vwinter",
+    "email": "me@vwinter.moe"
   },
-  "record": {
-    "URL": "https://william.is-a.dev"
+  "records": {
+    "NS": ["blakely.ns.cloudflare.com", "rocco.ns.cloudflare.com"]
   }
 }
