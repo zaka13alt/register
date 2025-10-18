@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "rolandvonrotz"
+        "username": "rolandvonrotz",
+        "discord": "rotzloch"
     },
     "records": {
         "CNAME": "rolandvonrotz.github.io"
