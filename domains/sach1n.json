@@ -5,6 +5,5 @@
     },
     "records": {
         "CNAME": "mysite-3202ef.gitlab.io"
-    },
-    "proxied": true
+    }
 }
