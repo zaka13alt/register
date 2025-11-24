@@ -1,10 +1,9 @@
 {
-  "description": "itzkr0bus.is-a.dev - Vercel deployment",
   "owner": {
     "username": "toibuonia",
     "email": "canbinh.5079@gmail.com"
   },
   "records": {
-    "CNAME": "itzkr0bus.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
