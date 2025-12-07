@@ -1,12 +1,10 @@
 {
-    "owner": {
-        "username": "virtualWinter",
-        "email": "v1rtualWinter@outlook.com",
-        "discord": "vwinter"
-    },
-    "record": {
-        "A": ["45.83.205.48"],
-        "MX": ["mail.winter.is-a.dev"]
-    }
-    
+  "owner": {
+    "username": "virtualwinter",
+    "discord": "vwinter",
+    "email": "me@vwinter.moe"
+  },
+  "records": {
+    "NS": ["blakely.ns.cloudflare.com", "rocco.ns.cloudflare.com"]
+  }
 }
