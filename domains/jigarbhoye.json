@@ -5,6 +5,7 @@
     "email": "jigarbhoye04@gmail.com"
   },
   "records": {
+    "A": ["76.76.21.21"],
     "CNAME": "jigarbhoye.vercel.app"
   }
 }
