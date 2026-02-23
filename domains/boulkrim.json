@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "KhaSmiley"
+        "username": "KhaSmiley",
+        "email": "khaha.bou@gmail.com"
     },
     "record": {
         "CNAME": "portfolio-khalid-three.vercel.app"
