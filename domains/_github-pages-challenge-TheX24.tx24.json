@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "TheX24"
-  },
-  "record": {
-    "TXT": [
-        "250e71c76a69616fb2347a0f867317"
-    ]
-  }
+    "owner": {
+        "username": "TheX24",
+        "email": "tx24@duck.com"
+    },
+    "records": {
+        "TXT": ["250e71c76a69616fb2347a0f867317"]
+    },
 }
