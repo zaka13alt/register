@@ -1,8 +1,8 @@
 {
-    "owner": {
-        "username": "benzenma123",
-        "email": "haidangchauduc@gmail.com"
-    },
+  "owner": {
+      "username": "benzenma123",
+      "email": "haidangchauduc@gmail.com"
+  },
     "records": {
         "CNAME": "benzenma123.github.io"
     }
