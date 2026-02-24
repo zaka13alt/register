@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "riotrip"
+    "username": "riotrip",
+    "email": "jasawebsch@gmail.com"
   },
   "records": {
     "CNAME": "riotrip.github.io"
