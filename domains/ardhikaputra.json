@@ -5,9 +5,6 @@
     },
     "records": {
         "A": ["216.198.79.1"],
-        "NS": [
-            "kyrie.ns.cloudflare.com",
-            "mary.ns.cloudflare.com"
-        ]
+        "TXT": ["zoho-verification=zb12809033.zmverify.zoho.com"]
     }
 }
