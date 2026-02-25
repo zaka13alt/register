@@ -1,7 +1,9 @@
-    "owner": {
-        "username": "AtomicElectronCreates"
-    },
-    "records": {
-        "CNAME": "apex-loadbalancer.netlify.com"
-    }
+{
+  "owner": {
+    "username": "AtomicElectronCreates",
+    "email": "andersontreeballs@gmail.com"
+  },
+  "record": {
+    "CNAME": "apex-loadbalancer.netlify.app"
+  }
 }
