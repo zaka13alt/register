@@ -3,6 +3,7 @@
     "username": "riotrip",
     "email": "jasawebsch@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "riotrip.github.io",
     "TXT": ["zoho-verification=zb00219805.zmverify.zoho.com"],
