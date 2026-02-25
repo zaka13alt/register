@@ -4,7 +4,12 @@
         "email": "hcskaiask@gmail.com"
     },
     "records": {
-        "CNAME": "hcs1219.github.io",
+        "A": [
+            "185.199.108.153",
+            "185.199.109.153",
+            "185.199.110.153",
+            "185.199.111.153"
+        ],
         "TXT": [
             "zoho-verification=zb40664184.zmverify.zoho.com",
             "v=spf1 include:zohomail.com ~all"
