@@ -4,7 +4,6 @@
     "email": "saharishi409@gmail.com"
   },
   "records": {
-    "CNAME": "1aec169a28c7ef13.vercel-dns-017.com",
-    "TXT": ["vc-domain-verify=www.rishi.is-a.dev,65fef198645efa7f9387"]
+    "CNAME": "1aec169a28c7ef13.vercel-dns-017.com"
   }
 }
