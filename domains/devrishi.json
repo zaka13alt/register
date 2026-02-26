@@ -3,8 +3,8 @@
     "username": "GodRishi",
     "email": "saharishi409@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "1aec169a28c7ef13.vercel-dns-017.com",
-    "TXT": "vc-domain-verify=www.rishi.is-a.dev,65fef198645efa7f9387"
+    "TXT": ["vc-domain-verify=www.rishi.is-a.dev,65fef198645efa7f9387"]
   }
 }
