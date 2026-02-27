@@ -1,10 +1,9 @@
 {
   "owner": {
     "username": "midnight0s",
-    "email": "",
     "discord": "817858871388799026"
   },
-  "record": {
+  "records": {
     "TXT": "vc-domain-verify=midnight0s.is-a.dev,333b53956284ddc6d49d"
   }
 }
