@@ -4,8 +4,7 @@
         "discord": "sleeper7426"
     },
     "records": {
-        "CNAME": "myportfolio-7fa.pages.dev",
-        "NS": ["aleena.ns.cloudflare.com", "hassan.ns.cloudflare.com"]
+        "CNAME": "myportfolio-7fa.pages.dev"
     },
     "proxied": true
 }
