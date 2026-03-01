@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marina — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #0f0f13;
+      --bg2:      #16161d;
+      --bg3:      #1e1e28;
+      --border:   #2c2c3a;
+      --text:     #e4e4f0;
+      --muted:    #7b7b96;
+      --amber:    #f59e0b;
+      --amber2:   #fbbf24;
+      --amber-bg: rgba(245,158,11,0.10);
+      --amber-border: rgba(245,158,11,0.3);
+      --mono: 'IBM Plex Mono', monospace;
+      --sans: 'Inter', sans-serif;
+      --display: 'Syne', sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 200;
+      background: rgba(15,15,19,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex; justify-content: center; gap: 2.5rem;
+      padding: .9rem 2rem;
+    }
+    nav a {
+      font-family: var(--mono); font-size: .78rem;
+      color: var(--muted); text-decoration: none;
+      letter-spacing: .06em; transition: color .2s;
+    }
+    nav a:hover { color: var(--amber); }
+
+    /* ── LAYOUT ── */
+    .page { max-width: 860px; margin: 0 auto; padding: 0 2rem; }
+
+    /* ── HERO ── */
+    #top { padding: 3.5rem 0 2.5rem; }
+    .hero-avatar {
+      width: 64px; height: 64px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--amber), #92400e);
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--display); font-size: 1.6rem; font-weight: 800;
+      color: #0f0f13; margin-bottom: 1.4rem;
+      box-shadow: 0 0 0 3px var(--amber-border);
+    }
+    .hero-name {
+      font-family: var(--display);
+      font-size: clamp(2.2rem, 6vw, 3.2rem);
+      font-weight: 800; line-height: 1.05; margin-bottom: .9rem;
+    }
+    .hero-sub {
+      font-size: .93rem; color: var(--muted);
+      max-width: 520px; line-height: 1.8; margin-bottom: 1.8rem;
+    }
+    .hero-sub strong { color: var(--amber); font-weight: 500; }
+    .hero-btns { display: flex; flex-wrap: wrap; gap: .7rem; }
+    .hero-btn {
+      display: inline-flex; align-items: center; gap: .5rem;
+      font-family: var(--mono); font-size: .78rem;
+      color: var(--text); text-decoration: none;
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: 6px; padding: .5rem 1rem;
+      transition: border-color .2s, color .2s, background .2s;
+    }
+    .hero-btn:hover { border-color: var(--amber); color: var(--amber); background: var(--amber-bg); }
+    .hero-btn svg { width: 14px; height: 14px; fill: currentColor; }
+
+    /* ── SECTION HEADER ── */
+    .sec-header {
+      display: flex; align-items: center; gap: .75rem;
+      margin-bottom: 2rem; padding-top: 3.5rem;
+    }
+    .sec-icon { color: var(--amber); display: flex; }
+    .sec-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .sec-title { font-family: var(--display); font-size: 1.3rem; font-weight: 700; }
+
+    /* ── PROJECTS ── */
+    .wip-banner {
+      background: var(--bg2); border: 1px solid var(--amber-border);
+      border-left: 3px solid var(--amber); border-radius: 6px;
+      padding: .75rem 1rem; font-family: var(--mono); font-size: .78rem;
+      color: var(--muted); margin-bottom: 2rem;
+    }
+    .project-row {
+      display: grid; grid-template-columns: 240px 1fr;
+      border: 1px solid var(--border); border-radius: 10px;
+      overflow: hidden; background: var(--bg2); margin-bottom: 1.4rem;
+      transition: border-color .25s;
+    }
+    .project-row:hover { border-color: var(--amber-border); }
+    .project-img {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 170px; border-right: 1px solid var(--border);
+      flex-direction: column; gap: .5rem; padding: 1.5rem;
+    }
+    .proj-icon { font-size: 2.8rem; opacity: .65; }
+    .proj-label { font-family: var(--mono); font-size: .68rem; color: var(--muted); }
+
+    .proj-chat  .project-img { background: linear-gradient(135deg,#1a1a2e,#16213e); }
+    .proj-film  .project-img { background: linear-gradient(135deg,#1a0a0a,#2d1515); }
+    .proj-skins .project-img { background: linear-gradient(135deg,#0a1a0a,#152d15); }
+    .proj-geo   .project-img { background: linear-gradient(135deg,#0a0a1a,#15152d); }
+    .proj-rpc   .project-img { background: linear-gradient(135deg,#1a1500,#2d2500); }
+    .proj-ttt   .project-img { background: linear-gradient(135deg,#1a0a15,#2d1525); }
+
+    .project-body { padding: 1.4rem 1.6rem; }
+    .project-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .75rem; }
+    .ptag {
+      font-family: var(--mono); font-size: .7rem;
+      padding: .18rem .55rem; border-radius: 4px; border: 1px solid transparent;
+    }
+    .t-amber  { color: var(--amber); background: var(--amber-bg); border-color: var(--amber-border); }
+    .t-blue   { color: #60a5fa; background: rgba(96,165,250,.1); border-color: rgba(96,165,250,.3); }
+    .t-green  { color: #34d399; background: rgba(52,211,153,.1); border-color: rgba(52,211,153,.3); }
+    .t-pink   { color: #f472b6; background: rgba(244,114,182,.1); border-color: rgba(244,114,182,.3); }
+    .t-purple { color: #a78bfa; background: rgba(167,139,250,.1); border-color: rgba(167,139,250,.3); }
+    .t-teal   { color: #2dd4bf; background: rgba(45,212,191,.1); border-color: rgba(45,212,191,.3); }
+
+    .project-name { font-family: var(--display); font-size: 1.05rem; font-weight: 700; margin-bottom: .4rem; }
+    .project-desc { font-size: .87rem; color: var(--muted); line-height: 1.7; margin-bottom: .9rem; }
+    .project-private { font-family: var(--mono); font-size: .71rem; color: var(--muted); }
+
+    /* ── ABOUT ── */
+    .about-grid { display: grid; grid-template-columns: 1fr 130px; gap: 2.5rem; align-items: start; }
+    .about-text p { color: var(--muted); font-size: .9rem; line-height: 1.8; margin-bottom: .85rem; }
+    .about-photo {
+      width: 120px; height: 120px; border-radius: 10px;
+      background: var(--bg3); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2.8rem; color: var(--muted);
+    }
+    .about-location {
+      display: flex; align-items: center; gap: .4rem;
+      font-family: var(--mono); font-size: .78rem;
+      color: var(--amber); margin-bottom: 1rem;
+    }
+
+    /* ── SKILLS ── */
+    .skills-group { margin-bottom: 1.75rem; }
+    .skills-group-label {
+      font-family: var(--mono); font-size: .72rem; color: var(--muted);
+      letter-spacing: .1em; text-transform: uppercase; margin-bottom: .65rem;
+    }
+    .skills-badges { display: flex; flex-wrap: wrap; gap: .45rem; }
+    .skill-badge {
+      display: inline-flex; align-items: center; gap: .4rem;
+      font-family: var(--mono); font-size: .75rem;
+      color: var(--text); background: var(--bg3);
+      border: 1px solid var(--border); border-radius: 5px;
+      padding: .28rem .75rem; transition: border-color .2s, color .2s;
+    }
+    .skill-badge:hover { border-color: var(--amber); color: var(--amber); }
+    .skill-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--amber); flex-shrink: 0; }
+
+    /* ── CONTACT ── */
+    .contact-intro { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+    .contact-form { display: flex; flex-direction: column; gap: 1rem; max-width: 520px; }
+    .contact-form input,
+    .contact-form textarea {
+      background: var(--bg2); border: 1px solid var(--border);
+      border-radius: 6px; padding: .72rem 1rem;
+      color: var(--text); font-family: var(--sans); font-size: .9rem;
+      outline: none; transition: border-color .2s; width: 100%;
+    }
+    .contact-form input:focus, .contact-form textarea:focus { border-color: var(--amber); }
+    .contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--muted); }
+    .contact-form textarea { resize: vertical; min-height: 120px; }
+    .contact-submit {
+      align-self: flex-start;
+      background: var(--amber); color: #0f0f13;
+      border: none; border-radius: 6px;
+      padding: .68rem 2rem; font-weight: 600; font-size: .9rem;
+      cursor: pointer; font-family: var(--sans);
+      transition: background .2s, transform .1s;
+    }
+    .contact-submit:hover { background: var(--amber2); transform: translateY(-1px); }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 0; margin-top: 4rem;
+      font-family: var(--mono); font-size: .72rem;
+      color: var(--muted); text-align: center; line-height: 2;
+    }
+    footer a { color: var(--amber); text-decoration: none; }
+
+    hr { border: none; border-top: 1px solid var(--border); }
+
+    @media (max-width: 600px) {
+      .project-row { grid-template-columns: 1fr; }
+      .project-img { min-height: 110px; border-right: none; border-bottom: 1px solid var(--border); }
+      .about-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#top">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#about">About me</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="page">
+
+  <!-- HERO -->
+  <section id="top">
+    <div class="hero-avatar">M</div>
+    <h1 class="hero-name">Hey, I'm Marina</h1>
+    <p class="hero-sub">
+      <strong>Solution-driven software engineer</strong> with a curious mindset, always eager to learn.<br />
+      Passionate about clean code, SOLID principles, and building things that matter. From Barcelona 🇪🇸
+    </p>
+    <div class="hero-btns">
+      <a class="hero-btn" href="https://www.linkedin.com/in/miao" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a class="hero-btn" href="https://github.com/miao" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23a11.509 11.509 0 013.003-.404c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.216.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        GitHub
+      </a>
+      <a class="hero-btn" href="mailto:miao@gmail.com">
+        <svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+        Gmail
+      </a>
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="sec-header">
+      <span class="sec-icon">
+        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </span>
+      <h2 class="sec-title">Projects</h2>
+    </div>
+
+    <div class="wip-banner">
+      ⚠ This section showcases academic projects for now — professional projects coming soon.
+    </div>
+
+    <div class="project-row proj-chat">
+      <div class="project-img">
+        <div class="proj-icon">💬</div>
+        <div class="proj-label">Android Chat</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="ptag t-amber">Java</span>
+          <span class="ptag t-green">Android</span>
+          <span class="ptag t-blue">TCP Sockets</span>
+        </div>
+        <div class="project-name">Android Chat</div>
+        <div class="project-desc">A client-server Android chat application using TCP sockets for bidirectional communication. Features asynchronous task handling and multithreading for network operations.</div>
+      </div>
+    </div>
+
+    <div class="project-row proj-film">
+      <div class="project-img">
+        <div class="proj-icon">🎬</div>
+        <div class="proj-label">FilmApp</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="ptag t-purple">Kotlin</span>
+          <span class="ptag t-green">Android</span>
+          <span class="ptag t-blue">TMDB API</span>
+        </div>
+        <div class="project-name">FilmApp</div>
+        <div class="project-desc">An Android app for tracking movies and TV shows — mark them as seen or pending. Integrates with The Internet Movie Database (TMDB) API.</div>
+        <div class="project-private">🔒 Available as a private project upon request</div>
+      </div>
+    </div>
+
+    <div class="project-row proj-skins">
+      <div class="project-img">
+        <div class="proj-icon">🎮</div>
+        <div class="proj-label">Gameskins</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="ptag t-amber">Java</span>
+          <span class="ptag t-green">Spring Boot</span>
+          <span class="ptag t-teal">Hibernate</span>
+          <span class="ptag t-pink">JUnit</span>
+          <span class="ptag t-blue">SQLite</span>
+        </div>
+        <div class="project-name">Gameskins</div>
+        <div class="project-desc">A RESTful API for querying, acquiring, modifying, and deleting video game skins. Loads skins via JSON, stores user data in SQLite. Includes OpenAPI/Swagger documentation.</div>
+        <div class="project-private">🔒 Available as a private project upon request</div>
+      </div>
+    </div>
+
+    <div class="project-row proj-geo">
+      <div class="project-img">
+        <div class="proj-icon">🗺️</div>
+        <div class="proj-label">Geocatchdis</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="ptag t-purple">Kotlin</span>
+          <span class="ptag t-amber">Firebase</span>
+          <span class="ptag t-green">Android</span>
+          <span class="ptag t-blue">Google Maps</span>
+        </div>
+        <div class="project-name">Geocatchdis</div>
+        <div class="project-desc">An Android app for exploring geocaches and logging finds. Features interactive Google Maps integration, user accounts, personalized reports, and customizable settings.</div>
+        <div class="project-private">🔒 Available as a private project upon request</div>
+      </div>
+    </div>
+
+    <div class="project-row proj-rpc">
+      <div class="project-img">
+        <div class="proj-icon">✅</div>
+        <div class="proj-label">RPC To-Do List</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="ptag t-amber">Python</span>
+          <span class="ptag t-green">Flask</span>
+          <span class="ptag t-teal">RabbitMQ</span>
+          <span class="ptag t-blue">SQLite</span>
+        </div>
+        <div class="project-name">RPC To-Do List</div>
+        <div class="project-desc">A modular Python application with a component-based architecture and RESTful API. Uses SQLite for persistence and RabbitMQ for asynchronous messaging and RPC communication.</div>
+      </div>
+    </div>
+
+    <div class="project-row proj-ttt">
+      <div class="project-img">
+        <div class="proj-icon">⭕</div>
+        <div class="proj-label">Tic Tac Toe</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="ptag t-amber">Java</span>
+          <span class="ptag t-green">Android</span>
+          <span class="ptag t-blue">TCP Sockets</span>
+        </div>
+        <div class="project-name">Tic Tac Toe</div>
+        <div class="project-desc">A multiplayer game with an Android client and Java backend. Implements turn-based logic, board management, winner validation, and multithreading for concurrent players.</div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr />
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sec-header">
+      <span class="sec-icon">
+        <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </span>
+      <h2 class="sec-title">About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="about-location">📍 Barcelona, Spain</div>
+        <p>Hi! I'm Marina — a solution-driven and service-oriented software engineer with a curious mindset, always eager to learn. I care deeply about product quality through best coding practices, design patterns, and SOLID principles.</p>
+        <p>Proficient in agile methodologies and PM tools, familiar with the ALM and the SDLC. I enjoy working across the stack and building things that solve real problems.</p>
+        <p>Native in Spanish and Catalan, fluent in English (C1).</p>
+      </div>
+      <div class="about-photo">👩‍💻</div>
+    </div>
+
+    <!-- Skills sub-section -->
+    <div class="sec-header" style="padding-top:2.5rem; margin-bottom:1.5rem;">
+      <span class="sec-icon">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+      </span>
+      <h2 class="sec-title">Skills</h2>
+    </div>
+
+    <div class="skills-group">
+      <div class="skills-group-label">Backend & Languages</div>
+      <div class="skills-badges">
+        <span class="skill-badge"><span class="skill-dot"></span>Python</span>
+        <span class="skill-badge"><span class="skill-dot"></span>Java</span>
+        <span class="skill-badge"><span class="skill-dot"></span>Kotlin</span>
+        <span class="skill-badge"><span class="skill-dot"></span>FastAPI</span>
+        <span class="skill-badge"><span class="skill-dot"></span>Flask</span>
+      </div>
+    </div>
+    <div class="skills-group">
+      <div class="skills-group-label">Data & Cloud</div>
+      <div class="skills-badges">
+        <span class="skill-badge"><span class="skill-dot"></span>Snowflake</span>
+        <span class="skill-badge"><span class="skill-dot"></span>Firebase</span>
+        <span class="skill-badge"><span class="skill-dot"></span>SAP</span>
+      </div>
+    </div>
+    <div class="skills-group">
+      <div class="skills-group-label">DevOps & Tools</div>
+      <div class="skills-badges">
+        <span class="skill-badge"><span class="skill-dot"></span>Docker</span>
+        <span class="skill-badge"><span class="skill-dot"></span>Kubernetes</span>
+        <span class="skill-badge"><span class="skill-dot"></span>Linux</span>
+        <span class="skill-badge"><span class="skill-dot"></span>Git</span>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="sec-header">
+      <span class="sec-icon">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </span>
+      <h2 class="sec-title">Contact</h2>
+    </div>
+    <p class="contact-intro">Did you like what you saw? Don't hesitate to reach out — I'd love to hear from you!</p>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit" class="contact-submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 <a href="https://github.com/miao">Marina</a>. Built with care from Barcelona.</p>
+  </footer>
+
+</div>
+
+<script>
+  function handleSubmit(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('.contact-submit');
+    btn.textContent = '✓ Sent!';
+    btn.style.background = '#10b981';
+    setTimeout(() => { btn.textContent = 'Send'; btn.style.background = ''; e.target.reset(); }, 3000);
+  }
+</script>
+</body>
+</html>
