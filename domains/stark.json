@@ -1,9 +1,8 @@
 {
     "owner": {
-        "username": "nguyentruongton",
-        "email": "tonstark.dev@gmail.com"
+        "username": "Charles-Stark"
     },
-    "record": {
-        "CNAME": "truongton.vercel.app"
+    "records": {
+        "CNAME": "blog-astro-theme-pure.pages.dev"
     }
 }
