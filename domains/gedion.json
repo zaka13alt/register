@@ -4,6 +4,9 @@
         "email": "contact@gedion.is-a.dev"
     },
     "records": {
-        "CNAME": "portfolio.gedion-zewdu.workers.dev"
+        "A": [
+            "172.67.141.130",
+            "104.21.13.238"
+        ]
     }
 }
