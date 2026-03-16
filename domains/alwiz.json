@@ -1,9 +1,10 @@
 {
+    "description": "alwiz.is-a.dev",
     "owner": {
         "username": "lenzarchive",
         "email": "alenforcearchive@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "alwizba.pages.dev"
     }
 }
