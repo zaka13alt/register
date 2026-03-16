@@ -4,6 +4,6 @@
         "email": "ifoumiguel@gmail.com"
     },
     "records": {
-        "CNAME": "https://mc-senpai-portfolio-six.vercel.app/"
+        "A": ["216.198.79.1"]
     }
 }
