@@ -1,7 +1,7 @@
 {
-  "subdomain": "phonethetpai",
   "owner": {
     "username": "PhoneTP99"
+    "email":"homegome99@gmail.com"
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
