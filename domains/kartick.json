@@ -1,1 +1,9 @@
-{"owner": {"username": "TheKartick", "email": "arianagrande8468@gmail.com"}, "record": {"CNAME": "kartick.netlify.app"}}
+{
+  "owner": {
+    "username": "TheKartick",
+    "email": "arianagrande8468@gmail.com"
+  },
+  "record": {
+    "CNAME": "kartick.netlify.app"
+  }
+}
