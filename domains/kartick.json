@@ -4,6 +4,6 @@
     "email": "arianagrande8468@gmail.com"
   },
   "records": {
-    "CNAME": "https://itzkartickportfolio.netlify.app/"
+    "CNAME": ["itzkartickportfolio.netlify.app"]
   }
 }
