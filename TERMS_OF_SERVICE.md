@@ -62,7 +62,7 @@ We reserve the right to terminate your subdomain at any time, for any reason.
 Termination may occur without prior notice. Any donations will not be refunded.
 
 ## 7. Privacy
-For privacy-related inquiries, please contact us at support@is-a.dev. We are not responsible for any data or privacy breaches resulting from the use of our service.
+For privacy-related inquiries, please contact us at admin@is-a.dev. We are not responsible for any data or privacy breaches resulting from the use of our service.
 
 We do not collect or process personal data beyond what is necessary to operate the service.
 
