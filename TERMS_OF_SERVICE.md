@@ -1,7 +1,7 @@
 # Terms of Service
 Welcome to **is-a.dev** ("our", "us", "we"), a free subdomain service provided to individuals. By using our service, you agree to the following Terms of Service ("Terms"). Please read them carefully.
 
-For questions or concerns about these Terms, please contact us at support@is-a.dev.
+For questions or concerns about these Terms, please contact us at admin@is-a.dev.
 
 **Last Updated**: 27th October, 2025
 
