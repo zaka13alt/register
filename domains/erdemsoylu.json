@@ -4,7 +4,7 @@
         "email": "erdemsoylu2603@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio-tau-two-taht6qj478.vercel.app",
+        "A": ["216.198.79.1"],
         "TXT": ["vc-domain-verify=erdemsoylu.is-a.dev,9d442fe5f7d967df19db"]
     }
 }
