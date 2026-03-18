@@ -1,10 +1,10 @@
+
 {
     "owner": {
         "username": "sanikava",
-        "email": "sanikava@pm.me"
+        "email": "sanikava.india+git@gmail.com"
     },
-
-    "record": {
-        "CNAME": "sanikava.github.io"
+    "records": {
+        "CNAME": "website-584.pages.dev"
     }
 }
