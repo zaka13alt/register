@@ -1,0 +1,12 @@
+{
+    "owner": {
+        "username": "m2lgl",
+        "email": "illegalcollector@gmail.com"
+    },
+    "record": {
+        "NS": [
+            "amos.ns.cloudflare.com",
+            "anastasia.ns.cloudflare.com"
+        ]
+    }
+}
