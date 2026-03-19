@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "your-github-username",
+        "email": "jahazielsv93@gmail.com"
+    },
+    "records": {
+        "CNAME": "https://noto-code.github.io/portafolio/"
+    }
+}
