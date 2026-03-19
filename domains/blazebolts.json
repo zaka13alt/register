@@ -3,7 +3,7 @@
         "username": "7blazebolt7",
         "email": "emadi09@icloud.com"
     },
-    "record": {
-        "CNAME": "https://peaceful-mandazi-19f3b9.netlify.app/"
+    "records": {
+        "CNAME": "peaceful-mandazi-19f3b9.netlify.app"
     }
 }
