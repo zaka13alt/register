@@ -4,7 +4,6 @@
     "email": "sainiamol27@gmail.com"
   },
   "records": {
-    "CNAME": "dd8c7480637c0306.vercel-dns-017.com",
-    "TXT": ["vc-domain-verify=www.amolsaini.is-a.dev,866747164b3e0f912244"]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
