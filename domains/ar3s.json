@@ -1,11 +1,10 @@
 {
   "description": "My portfolio website",
-  "domain": "is-a.dev",
-  "subdomain": "ar3s",
   "owner": {
-    "username": "G3nosss"
+    "username": "G3nosss",
+    "email": "aman@pragjyotishcollege.ac.in"
   },
-  "record": {
+  "records": {
     "CNAME": "portfolio-g3nosss-projects.vercel.app"
   }
 }
