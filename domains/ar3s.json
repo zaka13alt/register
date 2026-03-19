@@ -1,0 +1,11 @@
+{
+  "description": "My portfolio website",
+  "domain": "is-a.dev",
+  "subdomain": "ar3s",
+  "owner": {
+    "username": "G3nosss"
+  },
+  "record": {
+    "CNAME": "portfolio-g3nosss-projects.vercel.app"
+  }
+}
