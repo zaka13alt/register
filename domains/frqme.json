@@ -3,9 +3,6 @@
         "username": "Frqmelikescheese"
     },
     "records": {
-        "A": [ "185.27.134.139" ],
-        "CNAME": {
-            "c12b3cf0a253c53d4c68e7372190d3fc": "ns1.byet.org"
-        }
+        "A": [ "185.27.134.139" ]
     }
 }
