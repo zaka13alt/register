@@ -3,7 +3,7 @@
     "username": "xdele1edmc14",
     "email": "xdele1edmc@gmail.com"
   },
-  "record": {
-    "CNAME": "https://xdele1ed.netlify.app/"
+  "records": {
+    "CNAME": "xdele1ed.netlify.app/"
   }
 }
