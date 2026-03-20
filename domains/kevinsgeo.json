@@ -4,6 +4,7 @@
         "email": "shinegeorge@wisc.edu"
     },
     "records": {
-        "CNAME": "kevinsgeo.vercel.app"
+        "CNAME": "cname.vercel-dns.com",
+        "TXT": "vc-domain-verify=kevinsgeo.is-a.dev,de2d7f1f5ee67ccf719f"
     }
 }
