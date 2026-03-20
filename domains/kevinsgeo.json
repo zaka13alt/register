@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "kevinsgeo"
+        "username": "kevinsgeo",
+        "email": "shinegeorge@wisc.edu"
     },
     "records": {
         "CNAME": "kevinsgeo.vercel.app"
