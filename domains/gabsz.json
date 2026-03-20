@@ -1,8 +1,11 @@
 {
-    "owner": {
-        "username": "AstroNutws"
-    },
-    "record": {
-        "CNAME": "astronutws.github.io"
-    }
+  "description": "Personal subdomain",
+  "repo": "https://github.com/AstroNutws/Gab.Dev",
+  "owner": {
+    "username": "AstroNutws",
+    "email": "samongud@gmail.com"
+  },
+  "records": {
+    "CNAME": "astronutws.github.io"
+  }
 }
