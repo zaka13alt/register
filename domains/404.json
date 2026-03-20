@@ -3,6 +3,7 @@
     "username": "audtjddld"
   },
   "records": {
-    "CNAME": "audtjddld.github.io"
+    "CNAME": "audtjddld.github.io",
+    "TXT": ["_github-pages-challenge-audtjddld.404.is-a.dev=56294933a979f0aed3b984ebf5f686"]
   }
 }
