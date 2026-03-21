@@ -3,7 +3,8 @@
         "username": "m2lgl",
         "email": "illegalcollector@gmail.com"
     },
+    "description": "Personal developer portfolio and web showcase hosted on Vercel.",
     "records": {
-        "CNAME": "cname.vercel-dns.com"
+        "CNAME": "centranifweb.vercel.app"
     }
 }
