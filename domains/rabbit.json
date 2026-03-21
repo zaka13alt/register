@@ -1,9 +1,9 @@
 {
   "owner": {
-      "username": "11Rabbit11",
-      "email": "rishurachit0877@gmail.com"
+    "username": "11Rabbit11",
+    "email": "rishurachit0877@gmail.com"
   },
-  "record": {
-      "CNAME": "://vercel-dns.com"
+  "records": {
+    "CNAME": "7def0da880fcd4b4.vercel-dns-017.com"
   }
 }
