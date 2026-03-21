@@ -4,6 +4,6 @@
     "email": "rishurachit0877@gmail.com"
   },
   "records": {
-    "CNAME": "7def0da880fcd4b4.vercel-dns-017.com"
+    "A": ["76.76.21.21"]
   }
 }
