@@ -1,9 +1,9 @@
 {
     "owner": {
         "username": "PreyumKr",
-        "email": "preyum.kumar@iitgn.ac.in"
+        "email": "[preyum.kumar@iitgn.ac.in]"
     },
     "records": {
-        "CNAME": "preyumkrportfolio.netlify.app"
+        "A": "75.2.60.5"
     }
 }
