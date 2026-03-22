@@ -9,7 +9,7 @@
     "nested": [
       {
         "name": "lof",
-        "records": {
+        "record": {
           "CNAME": "my-arbitrage.pages.dev"
         }
       }
