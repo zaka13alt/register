@@ -4,6 +4,10 @@
         "email": "bereketgrima123@gmail.com"
     },
     "records": {
-        "CNAME": "bereket-portfolio-app.vercel.app"
+        "CNAME": "bereket-portfolio-app.vercel.app",
+        "MX": [
+            "mx1.improvmx.com",
+            "mx2.improvmx.com"
+        ]
     }
 }
