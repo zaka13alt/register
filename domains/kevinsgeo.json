@@ -1,11 +1,9 @@
 {
     "owner": {
         "username": "kevinsgeo",
-        "email": "kevinsgeo.college@gmail.com"
+        "email": "shinegeorge@wisc.edu"
     },
     "records": {
-        "CNAME": "cname.vercel-dns.com",
-        "TXT": "vc-domain-verify=kevinsgeo.is-a.dev,de2d7f1f5ee67ccf719f"
-    },
-    "proxied": true
+        "CNAME": "cname.vercel-dns.com"
+    }
 }
