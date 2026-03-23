@@ -11,5 +11,5 @@
   "records": {
     "CNAME": "cname.vercel-dns.com"
   },
-  "proxied": true
+  "proxied": false
 }
