@@ -5,9 +5,9 @@
   },
   "records": {
     "MX": [
-      { "priority": 13, "value": "route1.mx.cloudflare.net" },
-      { "priority": 75, "value": "route2.mx.cloudflare.net" },
-      { "priority": 17, "value": "route3.mx.cloudflare.net" }
+      "route1.mx.cloudflare.net",
+      "route2.mx.cloudflare.net",
+      "route3.mx.cloudflare.net"
     ],
     "TXT": ["v=spf1 include:_spf.mx.cloudflare.net ~all"]
   }
