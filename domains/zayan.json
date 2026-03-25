@@ -3,7 +3,7 @@
     "username": "zayanbnziz28-ui",
     "email": "zayanbnziz28@gmail.com"
   },
-  "record": {
+  "records": {
     "MX": [
       { "priority": 13, "value": "route1.mx.cloudflare.net" },
       { "priority": 75, "value": "route2.mx.cloudflare.net" },
