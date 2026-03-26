@@ -1,7 +1,9 @@
 {
+  "description": "Vishal's developer profile",
+  "repo": "https://github.com/vishalwork/ai_smart_translate",
   "owner": {
     "username": "vishalwork",
-    "email": "kvishalwork21@gmail.com"
+    "email": "your-email@example.com"
   },
   "record": {
     "CNAME": "vishalwork.github.io"
