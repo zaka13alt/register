@@ -1,0 +1,11 @@
+{
+  "description": "My Portfolio",
+  "repo": "https://github.com/HamsaMansour/bold-persona-bloom",
+  "owner": {
+    "username": "HamsaMansour",
+    "email": "hamsamans376@gmail.com"
+  },
+  "record": {
+    "CNAME": "https://bold-persona-bloom.vercel.app/"
+  }
+}
