@@ -1,6 +1,7 @@
 {
-  "owner":{
-    "username": "tkfouri"    
+  "owner": {
+    "username": "tkfouri",
+    "email": "kfouri.thiago@gmail.com"
   },
   "record": {
     "A": ["152.67.46.103"]
