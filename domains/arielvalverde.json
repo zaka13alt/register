@@ -5,7 +5,7 @@
     "username": "yovngmamba8",
     "email": "arielvalverde.pa@gmail.com"
   },
-  "record": {
-    "CNAME": "https://portfolio-ariel-valverde.vercel.app/"
+  "records": {
+    "CNAME": "portfolio-ariel-valverde.vercel.app/"
   }
 }
