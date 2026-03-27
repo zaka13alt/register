@@ -1,11 +1,9 @@
 {
-  "description": "My personal Portfolio",
-  "repo": "https://github.com/HamsaMansour/bold-persona-bloom",
-  "owner": {
-    "username": "HamsaMansour",
-    "email": "hamsamans376@gmail.com"
-  },
-  "record": {
-    "CNAME": "bold-persona-bloom.vercel.app"
-  }
+    "owner": {
+        "username": "HamsaMansour",
+        "email": "hamsamans376@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
