@@ -1,0 +1,11 @@
+{
+  "description": "My personal portfolio",
+  "repo": "https://github.com/yourusername",
+  "owner": {
+    "username": "yourusername",
+    "email": "your@email.com"
+  },
+  "record": {
+    "CNAME": "gurugangadhar.me"
+  }
+}
