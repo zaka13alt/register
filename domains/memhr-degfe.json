@@ -7,8 +7,5 @@
             "v=spf1 include:amazonses.com ~all",
             "v=DMARC1; p=none;"
         ],
-        "MX": [
-            "send.memhr-degfe 10 feedback-smtp.us-east-1.amazonses.com"
-         ]
     }   
 }
