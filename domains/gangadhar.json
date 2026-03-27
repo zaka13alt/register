@@ -1,9 +1,9 @@
 {
   "description": "My personal portfolio",
-  "repo": "https://github.com/yourusername",
+  "repo": "https://github.com/gurugangadhar",
   "owner": {
-    "username": "yourusername",
-    "email": "your@email.com"
+    "username": "gurugangadhar",
+    "email": "gurugangadharreddy19@email.com"
   },
   "record": {
     "CNAME": "gurugangadhar.me"
