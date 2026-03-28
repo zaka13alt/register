@@ -1,0 +1,11 @@
+{
+    "description": "Konlan's personal blog",
+    "repo": "https://github.com/kayymarklearn/blog",
+    "owner": {
+      "username": "kayymarklearn",
+      "email": "kayymark.learn@gmail.com"
+    },
+    "record": {
+      "CNAME": "blog-9730.onrender.com"
+    }
+}
