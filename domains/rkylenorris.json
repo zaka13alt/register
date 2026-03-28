@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "rkylenorris"
+    },
+    "records": {
+        "RECORDTYPE": "CNAME",
+        "RECORDCONTENT": "rkylenorris.github.io"
+    }
+}
