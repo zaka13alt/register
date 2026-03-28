@@ -2,8 +2,10 @@
     "owner": {
         "username": "rkylenorris"
     },
-    "records": {
-        "RECORDTYPE": "CNAME",
-        "RECORDCONTENT": "rkylenorris.github.io"
-    }
+    "records": [
+        {
+            "type": "CNAME",
+            "content": "rkylenorris.github.io"
+        }
+    ]
 }
