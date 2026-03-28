@@ -4,16 +4,7 @@
     "email": "lozadanoah24@gmail.com"
   },
   "records": {
-    "CNAME": "watermanmc.pages.dev",
-    "SRV": [
-      {
-        "name": "_minecraft._tcp.play",
-        "priority": 0,
-        "weight": 5,
-        "port": 11260,
-        "target": "play.watermanmc.is-a.dev"
-      }
+    "CNAME": "watermanmc.pages.dev"
     ]
-  },
-  "proxied": false
+  }
 }
