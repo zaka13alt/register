@@ -1,0 +1,51 @@
+{
+  "description": "Portfolio of Ade Desfrianto — Technical Business Analyst & Data Analyst",
+  "repo": "https://github.com/adedesfrianto/portfolio-hub",
+  "owner": {
+    "username": "adedesfrianto",
+    "email": "adedesfrianto@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-hub-ashy.vercel.app"
+  }
+}
+```
+
+> ⚠️ Ganti `USERNAME_GITHUB_KAMU` dengan username GitHub kamu yang asli. Field `records` (bukan `record`) — ini format terbaru mereka per 2025.
+
+5. Klik **Commit changes** → commit langsung ke fork kamu
+
+---
+
+## STEP 3 — Buat Pull Request
+
+1. Setelah commit, GitHub akan muncul banner kuning **"Compare & pull request"** → klik itu
+2. Judul PR: `Add adedesfrianto.is-a.dev`
+3. Description (opsional tapi bagus diisi):
+```
+   Portfolio site for Ade Desfrianto, Technical Business Analyst.
+   Pointing to Vercel deployment.
+```
+4. Klik **Create pull request**
+
+Maintainer akan review. Biasanya **1–3 hari**, kadang dalam hitungan jam kalau mereka lagi aktif.
+
+---
+
+## STEP 4 — Sambil nunggu approval: tambahkan domain di Vercel
+
+Kamu bisa set ini sekarang biar nanti langsung aktif setelah PR di-merge.
+
+1. Buka **vercel.com** → masuk ke project portfolio kamu
+2. Klik **Settings → Domains**
+3. Ketik `adedesfrianto.is-a.dev` → klik **Add**
+4. Vercel akan kasih status "Invalid Configuration" dulu — itu normal karena DNS belum aktif. Setelah PR di-merge, otomatis resolve dalam 10–30 menit.
+
+---
+
+## STEP 5 — Update environment variable di Vercel
+
+1. Masih di Vercel → **Settings → Environment Variables**
+2. Cari `NEXT_PUBLIC_SITE_URL` → edit nilainya jadi:
+```
+   https://adedesfrianto.is-a.dev
