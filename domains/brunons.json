@@ -1,10 +1,11 @@
 {
-    "owner": {
-        "username": "bruno-ns",
-        "email": "ns.bruno@gmail.com"
-    },
-    "records": {
-        "CNAME": "bruno-ns.github.io",
-        "TXT": "821b44563b5b80b0df2902fdfa9dc1"
-    }
+  "owner": {
+    "username": "bruno-ns",
+    "email": "ns.bruno@gmail.com"
+  },
+  "proxy": true,
+  "records": {
+    "CNAME": "bruno-ns.github.io",
+    "TXT": ["821b44563b5b80b0df2902fdfa9dc1"]
+  }
 }
