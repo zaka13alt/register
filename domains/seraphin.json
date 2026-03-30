@@ -1,12 +1,9 @@
 {
-  "description": "Portfolio de Seraphin Nariveloson — Développeur Fullstack Next.js",
-  "domain": "is-a.dev",
-  "subdomain": "seraphin",
   "owner": {
     "username": "Seraphin-26",
     "email": "seraphinn0508@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
