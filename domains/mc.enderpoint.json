@@ -3,11 +3,11 @@
         "username": "EnderPoint07"
     },
     "records": {
-        "A": ["163.61.39.177"]
+        "A": ["163.61.39.177"],
         "SRV": [
               {
-                "service": "_minecraft"
-                "protocol": "_tcp.mc"
+                "service": "_minecraft",
+                "protocol": "_tcp.mc",
                 "priority": 0,
                 "weight": 5,
                 "port": 35567,
