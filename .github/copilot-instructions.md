@@ -1,11 +1,11 @@
-# GitHub Copilot Instructions for is-a.dev/register Repository
+# GitHub Copilot Instructions for is-a-dev/register
 
 ## Repository Purpose
 This repository handles pull requests that register new `.is-a.dev` subdomains. Every PR adds or modifies **only** JSON files in the `domains/` directory. These files define DNS records.
 
 Copilot must review **every PR** with these priorities:
-1. The PR description **must** exactly match and fully complete the `.github/PULL_REQUEST_TEMPLATE.md`.
-2. Every JSON file must follow the exact filename rules, JSON schema, and validation rules from https://docs.is-a.dev/.
+1. The PR description **must** exactly match and fully complete the `.github/PULL_REQUEST_TEMPLATE.md`
+2. Every JSON file must follow the exact filename rules, JSON schema, and validation rules from https://docs.is-a.dev/domain-structure/
 3. If anything is wrong in the PR description **or** any JSON file, post a clear comment using the exact copy-pasta error messages (or very close variations that match the style). Be direct and helpful.
 4. Only comment on real issues. Do not approve the PR if any errors exist.
 
@@ -19,7 +19,7 @@ Files **must** be in the `domains/` directory and follow these exact rules:
 - Alphanumeric + dashes/underscores only (no consecutive dashes)
 - Filenames (without `.json`) **cannot** match any entry in `util/reserved.json`
 
-**Reserved names include** (but are not limited to): about, abuse, admin, api, app, blog, cdn, dashboard, dev, dns, github, login, mail, ns, proxy, register, root, staging, test, util, web, www, and many more — always cross-check the full list in `util/reserved.json`.
+Reserved names are listed in `util/reserved.json`. These subdomain names may NOT be registered.
 
 **Invalid filename errors to use verbatim:**
 - "File does not end in .json. Make sure the file extension is correct. Reopen this PR when you have this corrected."
