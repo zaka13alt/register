@@ -4,6 +4,7 @@
         "email": "ns.bruno@gmail.com"
     },
     "records": {
-        "CNAME": "bruno-ns.github.io"
+        "CNAME": "bruno-ns.github.io",
+        "TXT": "821b44563b5b80b0df2902fdfa9dc1"
     }
 }
