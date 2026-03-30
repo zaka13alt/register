@@ -4,6 +4,7 @@
         "email": "shahadathossenshams@gmail.com"
     },
     "record": {
+        "A": ["216.198.79.1"]
         "CNAME": "xenonrexo.vercel.app"
     }
 }
