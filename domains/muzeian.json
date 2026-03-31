@@ -1,11 +1,9 @@
 {
-  "description": "Muzeian Portfolio",
-  "repo": "https://github.com/muzeian/muzeian.github.io",
   "owner": {
     "username": "muzeian",
     "email": "awikworks@gmail.com"
   },
-  "record": {
-    "CNAME": "muzeian.github.io"
+  "records": {
+    "URL": "https://muzeian.github.io"
   }
 }
