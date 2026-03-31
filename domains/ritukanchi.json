@@ -1,0 +1,11 @@
+{
+  "description": "Ritu's Portfolio",
+  "repo": "https://github.com/ritukanchi/portfolio",
+  "owner": {
+    "username": "ritukanchi",
+    "email": "ritukanchi@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  }
+}
