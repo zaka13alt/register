@@ -1,6 +1,5 @@
 {
   "description": "Aakash's portfolio",
-  "domain": "is-a.dev",
   "subdomain": "aakashdahiya",
   "owner": {
     "username": "Aakash22010",
@@ -8,9 +7,7 @@
   },
   "records": {
     "CNAME": "10d8fd96178ad758.vercel-dns-017.com",
-    "TXT": {
-      "_vercel": "vc-domain-verify=www.aakashdahiya.is-a.dev,dbeadda91e95f0084dc6"
-    }
+    "TXT": "vc-domain-verify=www.aakashdahiya.is-a.dev,dbeadda91e95f0084dc6"
   },
   "proxied": true
 }
