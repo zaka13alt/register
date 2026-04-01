@@ -1,0 +1,15 @@
+{
+  "description": "Personal OS Portfolio for Godana",
+  "domain": "godana.is-a.dev",
+  "subdomain": "godana",
+  "owner": {
+    "repo": "https://github.com/godanaemiru/luminaos",
+    "email": "godanaemiru@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=godana.is-a.dev.50a1f3bc072484ac6117"
+    ]
+  }
+}
