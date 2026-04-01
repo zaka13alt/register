@@ -3,11 +3,14 @@
   "domain": "godana.is-a.dev",
   "subdomain": "godana",
   "owner": {
+    "username": "godanaemiru",
     "repo": "https://github.com/godanaemiru/luminaos",
     "email": "godanaemiru@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
+    "A": [
+      "216.198.79.1"
+    ],
     "TXT": [
       "vc-domain-verify=godana.is-a.dev.50a1f3bc072484ac6117"
     ]
