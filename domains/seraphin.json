@@ -4,6 +4,9 @@
     "email": "seraphinn0508@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      "vc-domain-verify=seraphin.is-a.dev,2a9cc35e9ec747e0b5ca"
+    ]
   }
 }
