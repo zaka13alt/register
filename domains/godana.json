@@ -1,7 +1,5 @@
 {
   "description": "Personal OS Portfolio for Godana",
-  "domain": "godana.is-a.dev",
-  "subdomain": "godana",
   "owner": {
     "username": "godanaemiru",
     "repo": "https://github.com/godanaemiru/luminaos",
