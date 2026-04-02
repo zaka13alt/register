@@ -1,11 +1,9 @@
 {
-  "description": "Ronnie Manook Portfolio",
-  "repo": "https://github.com/ronniemanook-boop/ronnie-codes-deep",
   "owner": {
     "username": "ronniemanook-boop",
     "email": "ronnie.manook@gmail.com"
   },
-  "record": {
-    "CNAME": "ronnie-codes-deep.vercel.app/"
+  "records": {
+    "CNAME": "ronnie-codes-deep.vercel.app"
   }
 }
