@@ -5,7 +5,13 @@
     },
     "records": {
         "CNAME": "michaelpetschel.github.io",
-        "TXT": ["zoho-verification=zb84845777.zmverify.zoho.com"]
+        "TXT": ["verification-code-site-App_lark=FVgNtgnIkwi76IaIhXiQ"]
+        "TXT": ["v=spf1 +include:spf.onlarksuite.com -all"]
+        "MX": [
+  { "target": "mx1.larksuite.com", "priority": 1 },
+  { "target": "mx2.larksuite.com", "priority": 5 }
+  { "target": "mx2.larksuite.com", "priority": 10 }
+]
     },
     "proxied": true
 }
