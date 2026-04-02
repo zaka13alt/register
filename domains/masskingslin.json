@@ -1,0 +1,11 @@
+{
+  "description": "My personal site",
+  "repo": "https://github.com/masskingslin",
+  "owner": {
+    "username": "masskingslin",
+    "email": "masskingslin@gmail.com"
+  },
+  "record": {
+    "CNAME": "masskingslin.github.io"
+  }
+}
