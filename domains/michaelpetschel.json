@@ -9,7 +9,7 @@
         "TXT": ["v=spf1 +include:spf.onlarksuite.com -all"]
         "MX": [
   { "target": "mx1.larksuite.com", "priority": 1 },
-  { "target": "mx2.larksuite.com", "priority": 5 }
+  { "target": "mx2.larksuite.com", "priority": 5 },
   { "target": "mx2.larksuite.com", "priority": 10 }
 ]
     },
