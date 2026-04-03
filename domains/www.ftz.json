@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "for-the-zero"
+    "username": "for-the-zero",
+    "email": "forthezero@outlook.com"
   },
   "records": {
     "CNAME": "forthezero.netlify.app"
