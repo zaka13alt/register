@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "axtillar",
-        "email": "axtillar@gmail.com"
-    },
-    "record": {
-        "CNAME": "axtillar.netlify.app"
-    }
+  "owner": {
+    "username": "Axtillar",
+    "email": "axtillar@duck.com"
+  },
+  "records": {
+    "A": ["75.2.60.5"]
+  }
 }
