@@ -4,6 +4,9 @@
     "email": "pearlrubymv@gmail.com"
   },
   "records": {
-    "CNAME": "muthumanickam-portfolio.vercel.app"
+    "CNAME": "muthumanickam-portfolio.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=is-a.dev,d0dde3884007f2751095"
+    }
   }
 }
