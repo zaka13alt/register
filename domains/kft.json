@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "KFT-Dev",
+        "email": "kft.sutemakuru@dakaka.org"
+    },
+    "records": {
+        "CNAME": "kftswitch.online",
+        "URL": "https://kftswitch.online"
+    }
+}
