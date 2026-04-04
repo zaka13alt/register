@@ -1,0 +1,11 @@
+{
+    "description": "Shaheer's personal developer domain",
+    "repo": "https://github.com/shaheersalal",
+    "owner": {
+          "username": "shaheersalal",
+          "email": "shaheersalal@outlook.com"
+    },
+    "record": {
+          "CNAME": "shaheersalal.github.io"
+    }
+}
