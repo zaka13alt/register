@@ -6,8 +6,6 @@
   "proxied": true,
   "records": {
     "CNAME": "muthumanickam-portfolio.vercel.app",
-    "TXT": {
-      "_vercel": "vc-domain-verify=is-a.dev,d0dde3884007f2751095"
-    }
+    "TXT": ["vc-domain-verify=is-a.dev,d0dde3884007f2751095"]
   }
 }
