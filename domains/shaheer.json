@@ -5,7 +5,7 @@
           "username": "shaheersalal",
                   "email": "shaheersalal@gmail.com"
     },
-    "record": {
+        "records": {
           "CNAME": "shaheersalal.github.io"
     }
 }
