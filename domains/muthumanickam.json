@@ -3,6 +3,7 @@
     "username": "Muthumanickam1521",
     "email": "pearlrubymv@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "muthumanickam-portfolio.vercel.app",
     "TXT": {
