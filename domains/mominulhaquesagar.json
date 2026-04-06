@@ -5,6 +5,5 @@
   },
   "records": {
     "CNAME": "momin-portfolio-five.vercel.app"
-  },
-  "proxy": false
+  }
 }
