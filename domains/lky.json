@@ -1,6 +1,5 @@
 {
   "description": "Personal Portfolio",
-  "domain": "lky.is-a.dev",
   "subdomain": "lky",
   "owner": {
     "username": "Isafe-nk",
@@ -9,5 +8,6 @@
   "records": {
     "CNAME": "lky-portfolio.vercel.app",
     "TXT": "vc-domain-verify=lky.is-a.dev,22f82ddfa6b2994a1609"
-  }
+  },
+  "proxied": true
 }
