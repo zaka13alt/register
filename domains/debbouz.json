@@ -4,9 +4,6 @@
     "email": "debbouzamine@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": [
-      "vc-domain-verify=debbouz.is-a.dev,a684bc172ab158439433"
-    ]
+    "CNAME": "cname.vercel-dns.com"
   }
 }
