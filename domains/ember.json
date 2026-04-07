@@ -1,7 +1,8 @@
 {
     "owner": {
         "username": "emberaine",
-        "email": "[email protected]"
+        "email": "[email protected]",
+        "discord": "emberainee"
     },
     "records": {
         "CNAME": "emberaine.github.io"
