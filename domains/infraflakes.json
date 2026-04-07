@@ -1,0 +1,9 @@
+{
+    "owner": {
+        "username": "infraflakes",
+        "email": "infraflakes@proton.me"
+    },
+    "record": {
+        "CNAME": "infraflakes.github.io" 
+    }
+}
