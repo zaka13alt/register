@@ -1,0 +1,13 @@
+{
+    "owner": {
+        "username": "namandhakad712",
+        "email": "namandhakad712@gmail.com"
+    },
+    "records": {
+        "NS": [
+            "kira.ns.cloudflare.com",
+            "miles.ns.cloudflare.com"
+        ]
+    },
+    "proxied": false
+}
