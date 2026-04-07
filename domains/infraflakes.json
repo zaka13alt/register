@@ -3,7 +3,7 @@
         "username": "infraflakes",
         "email": "infraflakes@proton.me"
     },
-    "record": {
+    "records": {
         "CNAME": "infraflakes.github.io" 
     }
 }
