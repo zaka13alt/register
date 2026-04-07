@@ -3,7 +3,7 @@
     "username": "zoom-BT",
     "email": "tchoutzine@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "cname.vercel-dns.com"
   }
 }
