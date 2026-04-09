@@ -1,19 +1,9 @@
 {
-  "owner": {
-    "username": "michaelpetschel",
-    "email": "michealrp13@gmail.com"
-  },
-  "records": {
-    "CNAME": "michaelpetschel.github.io",
-    "TXT": [
-      "verification-code-site-App_lark=FVgNtgnIkwi76IaIhXiQ",
-      "v=spf1 +include:spf.onlarksuite.com -all"
-    ],
-    "MX": [
-      { "target": "mx1.larksuite.com", "priority": 1 },
-      { "target": "mx2.larksuite.com", "priority": 5 },
-      { "target": "mx3.larksuite.com", "priority": 10 }
-    ]
-  },
-  "proxied": true
+    "owner": {
+        "username": "michaelpetschel",
+        "email": "michealrp13@gmail.com"
+    },
+    "records": {
+        "CNAME": "michaelpetschel.github.io"
+    }
 }
