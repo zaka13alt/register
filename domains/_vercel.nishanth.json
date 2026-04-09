@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "nishanth-0427"
+    "username": "nishanth-0427",
+    "email": "nishanthmanju.p@gmail.com"
   },
-  "record": {
-    "TXT": "vc-domain-verify=nishanth.is-a.dev,d176b9581383b13aef4e"
+  "records": {
+    "TXT": ["vc-domain-verify=nishanth.is-a.dev,d176b9581383b13aef4e"]
   }
 }
