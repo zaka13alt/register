@@ -13,6 +13,5 @@
       { "target": "mx2.larksuite.com", "priority": 5 },
       { "target": "mx3.larksuite.com", "priority": 10 }
     ]
-  },
-  "proxied": true
+  }
 }
