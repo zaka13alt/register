@@ -1,10 +1,9 @@
 {
-  "owner": {
-    "username": "adornyt5-cloud",
-    "email": "adornyt5@gmail.com",
-    "discord": "beast.1x"
-  },
-  "records": {
-    "CNAME": "adornyt5-cloud.github.io"
-  }
+    "owner": {
+        "username": "adornyt5-cloud",
+        "email": "adornyt5@gmail.com"
+    },
+    "records": {
+        "CNAME": "adornyt5-cloud.github.io"
+    }
 }
