@@ -1,0 +1,11 @@
+{
+  "description": "Portfolio personal torgaiv, .NET Developer",
+  "repo": "https://github.com/torgaiv/torgaiv.github.io",
+  "owner": {
+    "username": "torgaiv",
+    "email": "torgaiv.delegator010@passmail.net"
+  },
+  "record": {
+    "CNAME": "torgaiv.github.io"
+  }
+}
