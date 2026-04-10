@@ -1,10 +1,9 @@
 {
   "owner": {
-    "username": "malgaroshy-maker"
+    "username": "malgaroshy-maker",
+    "email": "malgaroshy@gmail.com"
   },
-  "proxied": true,
   "records": {
-    "CNAME": "cname.vercel-dns.com",
-    "TXT": ["vc-domain-verify=algaroshy.is-a.dev,53b87b61cbe849d1ea6f"]
+    "CNAME": "my-portfolio-silk-three-33.vercel.app"
   }
 }
