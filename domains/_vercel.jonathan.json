@@ -4,7 +4,7 @@
     "email": "jonathan.russ@bluewin.ch",
     "username": "JonathanXDR"
   },
-  "record": {
-    "TXT": "vc-domain-verify=jonathan-russ.is-a.dev,298a207b5f94dffde572"
+  "records": {
+    "TXT": "vc-domain-verify=jonathan.is-a.dev,ef0d4c3af486283a5709"
   }
 }
