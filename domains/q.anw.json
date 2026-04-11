@@ -12,6 +12,5 @@
       "/about": "https://subhrajitsain2.pythonanywhere.com/about"
     },
     "redirect_paths": true
-  },
-  "proxied": true
+  }
 }
