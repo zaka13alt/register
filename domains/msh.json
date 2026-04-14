@@ -5,5 +5,8 @@
   },
   "records": {
     "CNAME": "cname.vercel-dns.com"
+    "TXT": {
+      "_vercel": "vc-domain-verify=www.msh.is-a.dev,8070404fd24cdcbed665"
+    }
   }
 }
