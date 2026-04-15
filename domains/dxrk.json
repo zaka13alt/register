@@ -12,10 +12,7 @@
     "TXT": [
       "v=spf1 include:spf.improvmx.com ~all",
       "_dmarc= v=DMARC1; p=none; rua=mailto:dxrk0078@gmail.com"
-    ],
-    "profile": {
-      "CNAME": "dxrk.gt.tc"
-    }
+    ]
   },
   "proxied": false
 }
