@@ -5,6 +5,6 @@
         "discord": "zardev"
     },
     "records": {
-        "CNAME": "genymede.pages.dev"
+        "A": ["216.198.79.1"]
     }
 }
