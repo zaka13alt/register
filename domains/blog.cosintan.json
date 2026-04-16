@@ -4,6 +4,6 @@
         "email": "cosintan.tg@gmail.com"
     },
     "records": {
-        "CNAME": ["hashnode.network"]
+        "CNAME": "hashnode.network"
     }
 }
