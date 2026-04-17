@@ -4,7 +4,6 @@
     "email": "ayaan@ayaan.is-a.dev"
   },
   "records": {
-    "CNAME": "ayaan.is-a.dev"
+    "CNAME": "https://ayaan.is-a.dev"
   },
-  "proxied": false
 }
