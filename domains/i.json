@@ -5,7 +5,7 @@
   },
   "records": {
     "URL": "https://satindar.is-a.dev",
-    "TXT": ["zoho-verification=zb06359477.zmverify.zoho.in", "v=spf1 include:zoho.in ~all"],
+    "TXT": ["zoho-verification=zb06359477.zmverify.zoho.in", "v=spf1 include:zoho.in ~all", "verification-code-site-App_lark=io7Ez9JWtTkiRZUnGsbl"],
     "MX": [
         {
           "target": "mx.zoho.in",
