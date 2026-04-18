@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "aleksejmutic"
+    "username": "aleksejmutic",
+    "email": "aleksej.mutic@gmail.com"
   },
   "record": {
     "CNAME": "ephemeral-torte-796494.netlify.app"
