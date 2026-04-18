@@ -1,0 +1,11 @@
+{
+  "owner": {
+    "username": "ocean10230",
+    "email": "oceananimate@gmail.com"
+  },
+  "records": {
+    "TXT": [
+      "v=spf1 include:zohomail.com ~all"
+    ]
+  }
+}
