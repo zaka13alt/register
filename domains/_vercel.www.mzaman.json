@@ -6,5 +6,6 @@
   "records": {
     "CNAME": "918e72318462a7aa.vercel-dns-017.com.",
     "TXT": "vc-domain-verify=www.mzaman.is-a.dev,8e506d0c2f036f07acfd"
-  }
+  },
+  "proxied": true
 }

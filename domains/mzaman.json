@@ -5,5 +5,6 @@
   },
   "records": {
     "CNAME": "zaman-portfolio-v2.vercel.app"
-  }
+  },
+  "proxied": true
 }
