@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "buketcoban"
+    "username": "buketcoban",
+    "email": "buuketcoban@gmail.com"
   },
   "records": {
     "TXT": ["vc-domain-verify=buket.is-a.dev,c90f484d0f0d73f4d7c0"]
