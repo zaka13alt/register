@@ -5,6 +5,5 @@
   },
   "records": {
     "TXT": "vc-domain-verify=www.mzaman.is-a.dev,8e506d0c2f036f07acfd"
-  },
-  "proxied": true
+  }
 }
