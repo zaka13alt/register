@@ -1,0 +1,8 @@
+{
+    "owner": {
+        "username": "YourGitHubUsername"
+    },
+    "record": {
+        "CNAME": "ec-port.netlify.app"
+    }
+}
