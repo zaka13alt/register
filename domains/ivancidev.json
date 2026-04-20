@@ -4,6 +4,9 @@
     "email": "herlanherbas@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": {
+      "_vercel": "vc-domain-verify=ivancidev.is-a.dev,28ab728aefb880081592"
+    }
   }
 }
