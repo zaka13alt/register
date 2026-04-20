@@ -1,5 +1,7 @@
 {
   "description": "Mon portfolio",
+  "domain": "is-a.dev",
+  "subdomain": "duncanlangrume",
   "owner": {
     "username": "SolucePlay",
     "email": "soluceplay@gmail.com"
