@@ -1,10 +1,9 @@
 {
-  "description": "Portfolio of Faazil Mirza",
-  "record": {
-    "CNAME": "drago1314.github.io"
-  },
-  "owner": {
-    "username": "Drago1314",
-    "email": "shaikhmirza03@gmail.com"
-  }
+    "owner": {
+        "username": "Drago1314",
+        "email": "shaikhmirza03@gmail.com"
+    },
+    "records": {
+        "CNAME": "drago1314.github.io"
+    }
 }
