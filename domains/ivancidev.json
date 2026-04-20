@@ -3,6 +3,7 @@
     "username": "ivancidev",
     "email": "herlanherbas@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "cname.vercel-dns.com",
     "TXT": {
