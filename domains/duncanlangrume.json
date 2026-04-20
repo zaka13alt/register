@@ -4,7 +4,9 @@
     "username": "SolucePlay",
     "email": "soluceplay@gmail.com"
   },
-  "records": {
-    "A": "90.23.51.22"
+  "record": {
+    "A": [
+      "90.23.51.22"
+    ]
   }
 }
