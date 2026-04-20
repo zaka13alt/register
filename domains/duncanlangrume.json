@@ -1,11 +1,10 @@
 {
+  "description": "Mon portfolio",
   "owner": {
-    "username": "SolucePlay"
+    "username": "SolucePlay",
     "email": "soluceplay@gmail.com"
   },
-  "record": {
-    "A": [
-      "90.23.51.22"
-    ]
+  "records": {
+    "A": "90.23.51.22"
   }
 }
