@@ -5,6 +5,7 @@
     "email": "hurelhuyag@gmail.com"
   },
   "records": {
-    "CNAME": "hurelhuyag.github.io"
+    "CNAME": "hurelhuyag.github.io",
+    "TXT": "google-site-verification=4ZFKHqZ9Mn7A_iEz6LTzQHuPSggsVLFU_lEZ-EKc0uU"
   }
 }
