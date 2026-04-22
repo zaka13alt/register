@@ -1,1 +1,9 @@
-{\n  \"owner\": {\n    \"username\": \"Raviteja77\",\n    \"email\": \"geddadaraviteja612@gmail.com\"\n  },\n  \"record\": {\n    \"TXT\": \"vc-domain-verify=raviteja-geddada.is-a.dev,1e69f232eed2d163d99a\"\n  }\n}\n
+{
+  "owner": {
+    "username": "Raviteja77",
+    "email": "geddadaraviteja612@gmail.com"
+  },
+  "record": {
+    "TXT": "vc-domain-verify=raviteja-geddada.is-a.dev,1e69f232eed2d163d99a"
+  }
+}
