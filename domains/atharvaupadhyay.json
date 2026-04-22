@@ -1,12 +1,25 @@
 {
-    "repo": "https://github.com/atharvaupadhyay/atharvaupadhyay.github.io",
     "owner": {
         "username": "atharvaupadhyay",
-        "email": "atharva.upadhyay1099@gmail.com"
+        "email": "atharvaupadhyay001@gmail.com",
+        "discord": "atharvaupadhyay"
     },
-    "record": {
-	"A": ["217.174.245.249", "51.161.54.161"],
-	"MX": ["mx1.improvmx.com", "mx2.improvmx.com", "hosts.is-a.dev"],
-	"TXT": "v=spf1 include:spf.improvmx.com ~all"
+    "records": {
+        "TXT": [
+            "v=spf1 include:spf.improvmx.com ~all"
+        ],
+        "A": [
+            "216.198.79.1"
+        ],
+        "MX": [
+            {
+                "priority": 10,
+                "target": "mx1.improvmx.com"
+            },
+            {
+                "priority": 20,
+                "target": "mx2.improvmx.com"
+            }
+        ]
     }
 }

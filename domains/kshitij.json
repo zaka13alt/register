@@ -1,14 +1,9 @@
 {
     "owner": {
-        "username": "nerkoux",
-        "email": "akshatmehta_14434@mpsjaipur.com"
+        "username": "Morph23",
+        "email": "kshitijdutta02@gmail.com"
     },
-    "record": {
-        "A": [
-            "217.174.245.249",
-            "51.161.54.161"
-            ],
-        "MX": ["mail.is-a.dev"],
-        "TXT": "v=spf1 mx a:mail.is-a.dev ~all"
+    "records": {
+        "CNAME": "morph23.github.io"
     }
 }

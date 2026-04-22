@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "chadcat7",
-        "email": "namishpande2007@gmail.com"
+        "username": "finalblast",
+        "email": "nick@vngodev.com"
     },
-    "record": {
-        "CNAME": "chadcat7.github.io"
+    "records": {
+        "CNAME": "finalblast.github.io"
     }
 }
