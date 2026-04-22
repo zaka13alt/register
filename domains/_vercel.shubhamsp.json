@@ -4,6 +4,9 @@
         "email": "shubhamspawade@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=shubhamsp.is-a.dev,vc-domain-verify=www.shubhamsp.is-a.dev,1e77363a15638e557c12"
+        "TXT": [
+            "vc-domain-verify=shubhamsp.is-a.dev,1e77363a15638e557c12",
+            "vc-domain-verify=www.shubhamsp.is-a.dev,1e77363a15638e557c12"
+        ]
     }
 }
