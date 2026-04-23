@@ -1,0 +1,10 @@
+{
+    "owner": {
+        "username": "techjaik",
+        "email": "techjaik@gmail.com
+"
+    },
+    "records": {
+        "TXT": "vc-domain-verify=jaiminkumar.is-a.dev,PASTE_YOUR_VERCEL_TOKEN_HERE"
+    }
+}
