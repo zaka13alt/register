@@ -1,0 +1,10 @@
+{
+  "owner": {
+    "username": "paultanay",
+    "email": "tanaypaul@duck.com"
+  },
+  "records": {
+    "CNAME": "paultanay.github.io"
+  },
+  "proxied": true
+}
