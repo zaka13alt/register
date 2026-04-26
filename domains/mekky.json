@@ -6,5 +6,6 @@
     "records": {
         "CNAME": "mekky.pages.dev",
         "TXT": "google-site-verification=V-u7MZIjt0nu-E6UUhRjEf9iPc-A6Sqfu71SSL2D7uk"
-    }
+    },
+    "proxied": true
 }
