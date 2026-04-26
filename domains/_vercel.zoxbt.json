@@ -1,9 +1,8 @@
 {
   "owner": {
-    "username": "zoom-BT",
-    "email": "tchoutzine@gmail.com"
+    "username": "zoom-BT"
   },
   "records": {
-    "A": ["216.198.79.1"]
+    "TXT": "vc-domain-verify=zoxbt.is-a.dev,baf044adf1cc08d58b0b"
   }
 }
