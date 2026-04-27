@@ -4,7 +4,8 @@
     "email": "tanaypaul@duck.com"
   },
   "records": {
-    "CNAME": "paultanay.github.io"
-  },
-  "proxied": true
+    "A": [
+      "76.76.21.21"
+    ]
+  }
 }
