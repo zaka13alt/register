@@ -4,6 +4,7 @@
     "email": "vardhandoharey@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "356581eafe235632.vercel-dns-017.com",
+    "TXT": "vc-domain-verify=www.vardhan.is-a.dev,97cd876241de7d73b653"
   }
 }
