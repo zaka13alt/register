@@ -1,8 +1,9 @@
 {
   "owner": {
-    "username": "NuthanReddy"
+    "username": "NuthanReddy",
+    "email": "nuthan.reddy999@gmail.com"
   },
-  "records": {
-    "CNAME": "web-portfolio.nuthan-reddy999.workers.dev"
+  "record": {
+    "CNAME": "nuthanreddy.github.io"
   }
 }
