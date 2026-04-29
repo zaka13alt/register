@@ -3,12 +3,14 @@
     "username": "MhamedOuhanane",
     "email": "mhmdeouhnan60@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "my-portfolio-rouge-kappa-64.vercel.app"
   },
   "subdomains": {
     "_vercel": {
-      "TXT": ["vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"]
+      "records": {
+        "TXT": ["vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"]
+      }
     }
   }
 }
