@@ -3,5 +3,7 @@
     "username": "AyaanDhalait",
     "email": "ayaan@ayaan.is-a.dev"
   },
-  "repo": "AyaanDhalait/git-web"
+  "records": {
+    "CNAME": "ayaandhalait.github.io"
+  }
 }
