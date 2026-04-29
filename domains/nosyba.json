@@ -5,5 +5,7 @@
   },
   "record": {
     "CNAME": "no0sa.github.io"
-  }
+  },
+  "description": "Personal Flutter developer portfolio",
+  "repo": "https://github.com/No0sa/no0sa.github.io"
 }
