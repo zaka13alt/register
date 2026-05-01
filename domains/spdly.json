@@ -21,7 +21,7 @@
             {
                 "target": "mx3.zoho.in",
                 "priority": "50"
-            },
+            }
         ]
     }
 }
