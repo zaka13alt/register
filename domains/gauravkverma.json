@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "gaurav4707"
-    "email": "gauravkverma23@gmail.com" 
+    "username": "gaurav4707",
+    "email": "gauravkverma23@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "gaurav4707.github.io"
   }
 }
