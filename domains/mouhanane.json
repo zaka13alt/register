@@ -4,9 +4,11 @@
     "email": "mhmdeouhnan60@gmail.com"
   },
   "records": {
-    "CNAME": "my-portfolio-rouge-kappa-64.vercel.app",
+    "CNAME": "cname.vercel-dns.com",
     "TXT": [
-      "vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"
+      "vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3",
+      "_vercel.mouhanane.is-a.dev=vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"
     ]
   }
 }
+
