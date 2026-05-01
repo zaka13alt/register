@@ -5,6 +5,8 @@
   },
   "records": {
     "CNAME": "my-portfolio-rouge-kappa-64.vercel.app",
-    "_vercel.TXT": ["vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"]
+    "TXT": [
+      "vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"
+    ]
   }
 }
