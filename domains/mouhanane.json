@@ -3,10 +3,9 @@
     "username": "MhamedOuhanane",
     "email": "mhmdeouhnan60@gmail.com"
   },
+  "proxied": true,
   "records": {
     "CNAME": "cname.vercel-dns.com",
-    "TXT": [
-      "_vercel.mouhanane.is-a.dev=vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"
-    ]
+    "TXT": ["vc-domain-verify=mouhanane.is-a.dev,2485470a56ed0f8a4dd3"]
   }
 }
