@@ -4,6 +4,7 @@
         "email": "spdly.studios@gmail.com"
     },
     "records": {
-        "CNAME": "spdly.pages.dev"
+        "CNAME": "spdly.pages.dev",
+        "TXT": "zoho-verification=zb98416382.zmverify.zoho.in"
     }
 }
