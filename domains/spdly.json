@@ -3,6 +3,7 @@
         "username": "spdly-studios",
         "email": "spdly.studios@gmail.com"
     },
+    "proxied": true,
     "records": {
         "CNAME": "spdly.pages.dev",
         "TXT": [
