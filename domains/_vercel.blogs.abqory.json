@@ -4,7 +4,6 @@
         "email": "xecloud4@gmail.com"
     },
     "records": {
-        "TXT": "vc-domain-verify=blogs.abqory.is-a.dev,f13fe4bc38b8ffbcf16e",
-        "CNAME": "e813a6ea7c186aa0.vercel-dns-017.com."
+        "TXT": "vc-domain-verify=blogs.abqory.is-a.dev,f13fe4bc38b8ffbcf16e"
     }
 }
