@@ -1,11 +1,14 @@
 {
   "description": "Mirudull's portfolio",
-  "repo": "https://github.com/Mirudull-D/portfolio-2",
+  "repo": "https://github.com/yourusername/your-repo",
   "owner": {
-    "username": "Mirudull-D",
-    "email": "d.mirudull@gmail.com"
+    "username": "yourgithubusername",
+    "email": "mirudull@gmail.com"
   },
   "records": {
-    "CNAME": "mirudull-d.vercel.app"
+    "CNAME": "mirudull-d.vercel.app",
+    "TXT": {
+      "_vercel": "vc-domain-verify=mirudull.is-a.dev,4a33ae4fa4c9a6e6b922"
+    }
   }
 }
