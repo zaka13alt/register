@@ -5,7 +5,7 @@
     "username": "Sarthaksk26",
     "email": "sarthakkumbhar11@gmail.com"
   },
-  "record": {
-    "CNAME": "https://sarthak-portfolio-ochre.vercel.app/"
+  "records": {
+    "CNAME": "sarthak-portfolio-ochre.vercel.app"
   }
 }
