@@ -1,0 +1,10 @@
+{
+  "domain": "rejuverse",
+  "subdomain": "",
+  "owner": {
+    "username": "xriitb"
+  },
+  "record": {
+    "CNAME": "effervescent-cannoli-e85710.netlify.app"
+  }
+}
