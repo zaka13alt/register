@@ -4,11 +4,9 @@
     "username": "raghav-45",
     "email": "raghavbhai4545@gmail.com"
   },
-  "proxied": true,
   "records": {
     "A": ["76.76.21.21"],
-    "CNAME": {
-      "wjk3o5svpkya": "gv-gntwwamfzzxkwk.dv.googlehosted.com"
-    }
-  }
+    "TXT": "google-site-verification=pXeWUelUhod_DdBv2go40kPIUvvQjne2bJunqR-NHVA",
+  },
+  "proxied": true
 }
