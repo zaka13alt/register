@@ -1,10 +1,12 @@
 {
-  "owner": {
-    "username": "Saunakghosh10",
-    "email": "saunakghosh710@gmail.com",
-    "discord": "695672697270829116"
-  },
-  "records": {
-    "CNAME": "sgfolio-nu.vercel.app"
-  }
+    "description": "Personal portfolio of Saunak Ghosh, featuring AI and software development projects.",
+    "repo": "https://github.com/Saunakghosh10/portfolio",
+    "owner": {
+      "username": "Saunakghosh10",
+      "email": "saunakghosh710@gmail.com",
+      "discord": "695672697270829116"
+    },
+    "records": {
+      "CNAME": "portfolio-two-blush-k488se87r1.vercel.app"
+    }
 }
