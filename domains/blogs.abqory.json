@@ -4,6 +4,6 @@
         "email": "xecloud4@gmail.com"
     },
     "records": {
-        "CNAME": "e813a6ea7c186aa0.vercel-dns-017.com."
+        "A": ["216.198.79.1"]
     }
 }
