@@ -5,6 +5,9 @@
     "email": "raghavbhai4545@gmail.com"
   },
   "records": {
-    "A": ["76.76.21.21"]
+    "A": ["76.76.21.21"],
+    "CNAME": {
+      "wjk3o5svpkya": "gv-gntwwamfzzxkwk.dv.googlehosted.com"
+    }
   }
 }
