@@ -3,6 +3,6 @@
     "username": "LuisAPR1"
   },
   "records": {
-    "CNAME": "luisapr1.netlify.app"
+    "A": ["75.2.60.5"]
   }
 }
