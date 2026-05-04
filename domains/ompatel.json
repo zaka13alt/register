@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "ompatel100"
+        "username": "ompatel100",
+        "email": "ompatel100.dev@gmail.com"
     },
     "records": {
         "CNAME": "ompatel.is-a.dev"
