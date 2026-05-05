@@ -3,6 +3,7 @@
         "username": "MhamedOuhanane",
         "email": "votre-email@example.com"
     },
+    "proxied": true,
     "records": {
         "A": ["216.198.79.1"],
         "TXT": ["vc-domain-verify=mhouhanane.is-a.dev,ae2219616339513e429d"],
