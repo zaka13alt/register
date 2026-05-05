@@ -13,7 +13,7 @@
                 "port": 60109,
                 "target": "mc.enderpoint.is-a.dev"
               }
-            ]
+            ],
         "proxied": true
     }
 }
