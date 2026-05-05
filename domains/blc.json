@@ -5,8 +5,11 @@
            "discord": "723837167499083788"
         },
     
-        "record": {
+        "records": {
             "CNAME": "homelab.taila873b5.ts.net" 
+            "MX": ["mx1.improvmx.com", "mx2.improvmx.com"],
+            "TXT": ["v=spf1 include:spf.improvmx.com ~all"]
+    
         }
     }
     
