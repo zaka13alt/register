@@ -3,7 +3,7 @@
         "username": "EnderPoint07"
     },
     "records": {
-        "CNAME": ["session-interactions.gl.at.ply.gg"],
+        "CNAME": "session-interactions.gl.at.ply.gg",
         "SRV": [
               {
                 "service": "_minecraft",
