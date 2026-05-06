@@ -2,7 +2,8 @@
   "description": "Akshat Pawar - Portfolio",
   "repo": "https://github.com/akshatpawar/react-portfolio",
   "owner": {
-    "username": "akshatpawar"
+    "username": "akshatpawar",
+    "email": "akshatpawar1@gmail.com"
   },
   "record": {
     "CNAME": "akshatpawar.pages.dev"
