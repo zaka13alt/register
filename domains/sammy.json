@@ -1,12 +1,11 @@
 {
-    "description": "link for github pages",
-    "repo": "https://github.com/TorchedSammy/torchedsammy.github.io",
-    "owner": {
-        "username": "TorchedSammy",
-        "email": "torchedsammy@gmail.com",
-        "twitter": "TorchedSammy"
-    },
-    "record": {
-        "CNAME": "torchedsammy.github.io"
-    }
+  "description": "xsach",
+  "repo": "https://github.com/xsach/portfolio-ssg",
+  "owner": {
+    "username": "xsach",
+    "email":"samarthchauhan7@gmail.com"
+  },
+  "records": {
+    "CNAME": "portfolio-ssg-3m0.pages.dev"
+  }
 }
