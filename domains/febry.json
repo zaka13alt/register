@@ -3,16 +3,7 @@
     "username": "vandebry10-star",
     "email": "sybry1148@gmail.com"
   },
-  "records": [
-    {
-      "type": "A",
-      "name": "@",
-      "value": "216.198.79.1"
-    },
-    {
-      "type": "TXT",
-      "name": "_vercel",
-      "value": "vc-domain-verify=febry.is-a.dev,d2985e0eae621e94c7b9"
-    }
-  ]
+  "records": {
+    "A": ["216.198.79.1"]
+  }
 }
