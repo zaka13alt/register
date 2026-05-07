@@ -1,9 +1,9 @@
 {
-    "owner": {
-        "username": "tdbaophuc",
-        "email": "tdbaophuc@gmail.com"
-    },
-    "record": {
-        "CNAME": "cname.vercel-dns.com"
-    }
+  "owner": {
+    "username": "tdbaophuc",
+    "email": "tdbaophuc@gmail.com"
+  },
+  "record": {
+    "CNAME": "cname.vercel-dns.com"
+  }
 }
