@@ -3,7 +3,7 @@
     "username": "apiwishboon-spec",
     "email": "apiwish.boon@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "boon-profile.pages.dev"
   }
 }
