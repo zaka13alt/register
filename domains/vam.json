@@ -1,0 +1,12 @@
+{
+  "description": "Personal portfolio and developer studio of James Manansala — full-stack developer, SaaS founder, and web dev instructor from Pampanga, Philippines.",
+  "repo": "https://github.com/Vam-JD/portfolio",
+  "owner": {
+    "username": "Vam-JD",
+    "email": "jamesdealanm@gmail.com"
+  },
+  "records": {
+    "CNAME": "cname.vercel-dns.com"
+  },
+  "proxied": false
+}
