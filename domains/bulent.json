@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "GitHub kullanıcı adın",
-    "email": "polen18@gmail.com"
+    "username": "bulentyucel",
+    "email": "bulentyucel@gmail.com"
   },
-  "record": {
-    "CNAME": "bulent.eu.org"
+  "records": {
+    "A": ["192.0.2.1"]
   }
 }
