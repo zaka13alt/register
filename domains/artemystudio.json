@@ -3,9 +3,9 @@
   "repo": "https://github.com/ArtemyStudio/artemystudio-dev",
   "owner": {
     "username": "ArtemyStudio",
-    "email": "artemystudio@gmail.com"
+    "email": "artemystudio.co@gmail.com"
   },
-  "record": {
+  "records": {
     "CNAME": "artemystudio.netlify.app"
   }
 }
