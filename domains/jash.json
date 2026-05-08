@@ -4,6 +4,6 @@
     "email": "jashshah9317@gmail.com"
   },
   "records": {
-    "CNAME": "portfolio-website-eight-ochre-23.vercel.app"
+    "A": ["216.198.79.1"]
   }
 }
