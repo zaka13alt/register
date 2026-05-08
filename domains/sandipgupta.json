@@ -1,9 +1,9 @@
 {
     "owner": {
-        "username": "guptasandip",
+        "username": "GuptaSandip",
         "email": "sandipgupta7304@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "sandipgupta.vercel.app"
     }
 }
