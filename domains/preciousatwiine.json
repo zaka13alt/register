@@ -4,9 +4,7 @@
     "email": "preciousinshuti3@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
-    "TXT": [
-      "vc-domain-verify=preciousatwiine.is-a.dev,df433455571a3955b4e6"
-    ]
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": ["vc-domain-verify=preciousatwiine.is-a.dev,df433455571a3955b4e6"]
   }
 }
