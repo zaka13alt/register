@@ -4,7 +4,7 @@
     "email": "notender01@gmail.com"
   },
   "records": {
-    "CNAME": "0f2f5e2c0176fe51d1b9d3afed94a470._acme.deno.net."
+    "CNAME": "0f2f5e2c0176fe51d1b9d3afed94a470._acme.deno.net"
   },
   "proxied": false
 }
