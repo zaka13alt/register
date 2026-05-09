@@ -6,5 +6,5 @@
         "CNAME": "ghs.googlehosted.com",
         "TXT": ["google-site-verification=jv5aXexIduoT3Bw6Uc6a1JIhxolYyy_tS4qmxnUMy8E"]
     },
-    "proxied" = true
+    "proxied": true
 }
