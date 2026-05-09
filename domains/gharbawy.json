@@ -5,6 +5,7 @@
     },
     "records": {
         "CNAME": "ahmedredagh.github.io",
-        "TXT": ["google-site-verification=dOngZuji6f2vJhGqIEkdvCDvNOK0PMs5FAswqSfpp1E"]
+        "TXT": ["google-site-verification=dOngZuji6f2vJhGqIEkdvCDvNOK0PMs5FAswqSfpp1E"],
+        "proxied": true
     }
 }
