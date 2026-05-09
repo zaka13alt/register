@@ -4,6 +4,12 @@
     "email": "bashirbobboi@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "cname.vercel-dns.com",
+    "TXT": [
+      {
+        "name": "_vercel",
+        "value": "vc-domain-verify=bashir.is-a.dev,6846f6120be883592d7d"
+      }
+    ]
   }
 }
