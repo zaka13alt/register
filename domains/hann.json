@@ -1,1 +1,9 @@
-
+{
+  "owner": {
+    "username": "r-hann",
+    "email": "wahyupp168@gmail.com"
+  },
+  "records": {
+    "A": ["1.1.1.1"]
+  }
+}
