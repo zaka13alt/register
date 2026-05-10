@@ -3,14 +3,7 @@
     "username": "r-hann",
     "email": "wahyupp168@gmail.com"
   },
-  "records": {
-    "CNAME": "r-hann.github.io",
-    "MX": [
-      "mx1.improvmx.com",
-      "mx2.improvmx.com"
-    ],
-    "TXT": [
-      "v=spf1 include:spf.improvmx.com ~all"
-    ]
+  "record": {
+    "CNAME": "r-hann.github.io"
   }
 }
