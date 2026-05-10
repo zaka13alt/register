@@ -4,14 +4,6 @@
     "email": "wahyupp168@gmail.com"
   },
   "records": {
-    "CNAME": "r-hann.github.io",
-    "MX": [
-      "route1.mx.cloudflare.net",
-      "route2.mx.cloudflare.net",
-      "route3.mx.cloudflare.net"
-    ],
-    "TXT": [
-      "v=spf1 include:_spf.mx.cloudflare.net ~all"
-    ]
+    "CNAME": "r-hann.github.io"
   }
 }
