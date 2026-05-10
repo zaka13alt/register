@@ -1,12 +1,12 @@
 {
-		"description": "Blog cyber, info et IA — Dyingirl",
-		"repo": "https://github.com/Raterfy/register",
-		"owner": {
-				"username": "Raterfy",
-				"email": "Raterfy30032002@gmail.com"
-		},
-		"record": {
-				"CNAME": "8ff6f5a9-1e5e-4246-9b43-ffe4d4360973.cfargotunnel.com"
-		},
-		"proxied": true
+	"description": "Blog cyber, info et IA — Dyingirl",
+	"repo": "https://github.com/Raterfy/register",
+	"owner": {
+		"username": "Raterfy",
+		"email": "Raterfy30032002@gmail.com"
+	},
+	"records": {
+		"CNAME": "8ff6f5a9-1e5e-4246-9b43-ffe4d4360973.cfargotunnel.com"
+	},
+	"proxied": true
 }
