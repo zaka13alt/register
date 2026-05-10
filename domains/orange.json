@@ -1,9 +1,9 @@
 {
   "owner": {
-    "username": "sahmed011",
-    "email": "sufyanmishal@gmail.com"
+    "username": "orangci",
+    "discord": "orangc"
   },
-  "record": {
-    "CNAME": "sahmed011.github.io"
+  "records": {
+    "URL": "https://orangc.net"
   }
 }
