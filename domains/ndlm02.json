@@ -3,7 +3,7 @@
         "username": "nguyenducleminh11-pixel",
         "email": "nguyenducleminh02@gmail.com"
     },
-    "record": {
-        "CNAME": "https://nguyenducleminh11-pixel.github.io/My-blog/"
+    "records": {
+        "CNAME": "nguyenducleminh11-pixel.github.io"
     }
 }
