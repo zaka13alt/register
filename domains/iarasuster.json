@@ -3,8 +3,10 @@
 {
   "owner": {
     "username": "iarasuster"
+     "email": "iarasuster@gmail.com"
   },
   "records": {
     "CNAME": "iarasuster.github.io"
+    "URL": "iarasuster.is-a.dev"
   }
 }
