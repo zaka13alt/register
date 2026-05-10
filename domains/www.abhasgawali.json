@@ -2,7 +2,7 @@
   "owner": {
     "username": "abhasgawali"
   },
-  "record": {
-    "CNAME": "abhasdev.netlify.app"
+  "records": {
+    "CNAME": ["abhasg.netlify.app"]
   }
 }
