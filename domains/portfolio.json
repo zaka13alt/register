@@ -5,7 +5,7 @@
   },
   "description": "Official demo for portfolio-web — open-source Korean stock portfolio tracker",
   "repo": "https://github.com/hanjungwoo3/portfolio-web",
-  "record": {
+  "records": {
     "CNAME": "hanjungwoo3.github.io"
   }
 }
