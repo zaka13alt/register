@@ -3,7 +3,7 @@
     "username": "dharanidharansr",
     "email": "samidharani07@gmail.com"
   },
-  "record": {
-    "CNAME": "https://portfolio-a819e.web.app"
+  "records": {
+    "CNAME": "portfolio-a819e.web.app"
   }
 }
