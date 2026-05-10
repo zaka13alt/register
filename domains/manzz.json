@@ -4,9 +4,6 @@
         "email": "illegalcollector@gmail.com"
     },
     "records": {
-        "NS": [
-            "amos.ns.cloudflare.com",
-            "anastasia.ns.cloudflare.com"
-        ]
+        "CNAME": "manzz-next-js.pages.dev"
     }
 }
