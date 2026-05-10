@@ -6,7 +6,6 @@
     "email": "d.mohithakshay@gmail.com"
   },
   "records": {
-    "CNAME": "o6lztr60.up.railway.app",
-    "TXT": ["railway-verify=e28d493a707b9e03d20a568d2603715f55e8e03e10a75ac54ad34f68eb126e2f"]
+    "CNAME": "o6lztr60.up.railway.app"
   }
 }
