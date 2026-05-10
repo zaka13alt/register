@@ -5,8 +5,6 @@
   },
   "records": {
     "A": ["216.198.79.1"],
-    "TXT": {
-      "_vercel": "vc-domain-verify=iarasuster.is-a.dev,1188b0d9e3c3ebe87a1e"
-    }
+    "TXT": "vc-domain-verify=iarasuster.is-a.dev,1188b0d9e3c3ebe87a1e"
   }
 }
