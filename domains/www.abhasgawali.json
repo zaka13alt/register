@@ -3,6 +3,6 @@
     "username": "abhasgawali"
   },
   "records": {
-    "CNAME": ["abhasg.netlify.app"]
+    "CNAME": "abhasg.netlify.app"
   }
 }
