@@ -4,7 +4,7 @@
     "email": "d.donders1998@gmail.com"
   },
   "records": {
-    "CNAME": "ddev-portfolio.vercel.app"
+    "CNAME": "ddev-portfolio.vercel.app",
     "TXT": "vc-domain-verify=donders.is-a.dev,65fcffd61848ce3e8320"
   }
 }
