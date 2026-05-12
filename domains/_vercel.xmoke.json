@@ -1,10 +1,9 @@
-
 {
     "owner": {
         "username": "xmokecursed",
         "email": "xmokecursed@proton.me"
     },
     "records": {
-        "TXT": ["vc-domain-verify=xmoke.is-a.dev,bdf2311f3157984aa923"]
+        "TXT": "vc-domain-verify=xmoke.is-a.dev,08510cc84a115df111da"
     }
 }
