@@ -2,7 +2,7 @@
   "description": "Personal staging environment for testing",
   "owner": {
     "username": "dr4cary5",
-    "email": "your-email@gmail.com"
+    "email": "caffein.admin@protonmail.com"
   },
   "record": {
     "CNAME": "cname.vercel-dns.com"
