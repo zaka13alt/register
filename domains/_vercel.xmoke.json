@@ -1,10 +1,9 @@
-
 {
     "owner": {
         "username": "xmokecursed",
         "email": "xmokecursed@proton.me"
     },
     "records": {
-        "TXT": ["vc-domain-verify=www.xmoke.is-a.dev,329af4a330e313d81d20"]
+        "CNAME": "bea259733299fe5a.vercel-dns-017.com."
     }
 }
