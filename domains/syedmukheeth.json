@@ -4,6 +4,8 @@
         "email": "syedmukheeth09@gmail.com"
     },
     "records": {
-        "CNAME": "portfolio-pearl-psi-19.vercel.app"
+        "A": ["76.76.21.21"]
     }
 }
+
+
