@@ -3,6 +3,9 @@
     "username": "a4abhishekkmr",
     "email": "a4abhishekkmr@gmail.com"
   },
+  "description": "Personal Portfolio",
   "repo": "https://github.com/a4abhishekkmr/a4abhishekkmr.github.io",
-  "description": "Personal Portfolio"
+  "records": {
+    "CNAME": "a4abhishekkmr.github.io"
+  }
 }
