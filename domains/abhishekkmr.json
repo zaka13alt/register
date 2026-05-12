@@ -1,4 +1,8 @@
 {
-  "description": "Personal Portfolio",
-  "repo": "https://github.com/a4abhishekkmr/a4abhishekkmr.github.io"
+  "owner": {
+    "username": "a4abhishekkmr",
+    "email": "a4abhishekkmr@gmail.com"
+  },
+  "repo": "https://github.com/a4abhishekkmr/a4abhishekkmr.github.io",
+  "description": "Personal Portfolio"
 }
