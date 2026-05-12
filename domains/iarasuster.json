@@ -4,6 +4,6 @@
     "email": "iarasuster@gmail.com"
   },
   "records": {
-    "CNAME": "iarasuster.github.io"
+    "A": ["76.76.21.21"]
   }
 }
