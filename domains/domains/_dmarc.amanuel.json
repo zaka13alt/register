@@ -1,0 +1,9 @@
+{
+  "owner": {
+    "username": "amuif28",
+    "email": "amuif28@gmail.com"
+  },
+  "record": {
+    "TXT": ["v=DMARC1; p=none;"]
+  }
+}
