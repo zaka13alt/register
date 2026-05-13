@@ -3,7 +3,8 @@
     "username": "sriramchidambaram-source",
     "email": "sriramchidambaram84@gmail.com"
   },
-  "record": {
+  "description": "Personal portfolio website",
+  "records": {
     "CNAME": "sriramchidambaram.pages.dev"
   }
 }
