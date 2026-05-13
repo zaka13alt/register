@@ -1,8 +1,11 @@
 {
-  "owner": {
-    "username": "gourab026"
-  },
-  "records": {
-    "CNAME": "gourab026.github.io"
+    "description": "ShipIntel — security scanner for AI-built apps",
+    "repo": "https://github.com/gourab026/ShipIntel",
+    "owner": {
+      "username": "gourab026",
+      "email": "gourab.cyber26@gmail.com"
+    },
+    "record": {
+      "CNAME": "shipsafe001.netlify.app"
+    }
   }
-}
