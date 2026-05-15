@@ -4,6 +4,6 @@
         "email": "daneswara@tuta.io"
     },
     "records": {
-        "CNAME": "d4n.netlify.app"
+        "A": ["75.2.60.5"]
     }
 }
