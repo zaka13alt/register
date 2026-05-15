@@ -3,5 +3,7 @@
         "username": "migtibincoski",
         "email": "contato@migtibincoski.is-a.dev"
     },
-    "records": {}
+    "records": {
+        "CNAME": "migtibincoski.is-a.dev"
+    }
 }
