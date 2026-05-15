@@ -3,7 +3,7 @@
     "username": "builtbyVishal",
     "email": "vishalbb675@gmail.com"
   },
-  "record": {
+  "records": {       // ✓ Correct
     "CNAME": "BuiltbyVishal.github.io"
   }
 }
