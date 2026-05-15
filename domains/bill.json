@@ -1,6 +1,7 @@
 {
     "owner": {
-        "username": "CMBill"
+        "username": "CMBill"，
+        "email": "callmebill@billw.cn"
     },
     "records": {
         "CNAME": "cmbill-github-io.pages.dev"
