@@ -1,6 +1,7 @@
 {
   "owner": {
-    "username": "ulltrium"
+    "username": "ulltrium",
+    "email": "ulltrium@yahoo.com"
   },
   "records": {
     "CNAME": "fallback.here.now"
