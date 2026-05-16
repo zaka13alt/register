@@ -6,7 +6,6 @@
     "email": "coderpratap.dev@email.com"
   },
   "record": {
-    "CNAME": "coderpratap-dev.github.io",
-    "URL": "https://coderpratap-dev.github.io/portfolio"
+    "CNAME": "coderpratap-dev.github.io/portfolio",
   }
 }
