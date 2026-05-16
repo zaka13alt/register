@@ -1,9 +1,9 @@
 {
-  "owner": {
-    "username": "Y-AmilaNirmal",
-    "email": "yamilanirmal@gmail.com"
-  },
-  "records": {
-    "CNAME": "y-amilanirmal.github.io"
-  }
+    "owner": {
+        "username": "y-amila-nirmal",
+        "email": "yamilanirmal@gmail.com"
+    },
+    "records": {
+        "A": ["216.198.79.1"]
+    }
 }
