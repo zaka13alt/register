@@ -1,8 +1,9 @@
 {
     "owner": {
-        "username": "Tamz-0"
+        "username": "Tamz-0",
+        "email": "tahazaman85@gmail.com"
     },
-    "record": {
+    "records": {
         "CNAME": "tahaportfolio.pages.dev"
     }
 }
