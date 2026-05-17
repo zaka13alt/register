@@ -6,7 +6,6 @@
     "email": "alanmugambi2007@gmail.com"
   },
   "records": {
-    "CNAME": "alan-portfolio-xi.vercel.app",
-    "TXT": ["vc-domain-verify=alanmugambi.is-a.dev,5fa10bdb44ca22731c36"]
+    "CNAME": "alan-portfolio-xi.vercel.app"
   }
 }
