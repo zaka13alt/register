@@ -4,9 +4,6 @@
     "email": "vanshrabadiyav@gmail.com"
   },
   "records": {
-    "NS": [
-      "alexandra.ns.cloudflare.com",
-      "osmar.ns.cloudflare.com"
-    ]
+    "A": ["216.198.79.1"]
   }
 }
