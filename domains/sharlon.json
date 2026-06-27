@@ -4,6 +4,6 @@
         "email": "sharlon.work@gmail.com"
     },
     "records": {
-        "CNAME": "me-f2e.pages.dev"
+        "A": ["216.198.79.1"]
     }
 }
